@@ -1,0 +1,49 @@
+<div layout="row" flex>
+    <div layout="column" flex id="content">
+        <md-content flex layout="column" layout-align="center center" class="auth-login">
+
+            <div class="alert-wrapper ">
+                <div class="alert alert-danger" ng-show="error">
+                    Authorization Failed: Invalid username-password. You have 7 more times before your user lock out.
+                </div>
+            </div>
+
+            <div class="auth-head" layout="column" layout-align="center center">
+                <span class="c-logo ">
+            <i class="ico-default"></i>
+        </span>
+                <h2 class="md-display-1">Customer Name</h2>
+            </div>
+
+            <form class="form-base " autocomplete="off">
+                <md-input-container class="md-block">
+                    <label>Username</label>
+                    <input required name="username" type="text" ng-model="project.username">
+                </md-input-container>
+                <md-input-container class="md-block">
+                    <label>Password</label>
+                    <input required name="password" type="password" ng-model="project.password">
+                </md-input-container>
+
+                <div class="remember-me clearfix">
+                    <md-checkbox class="left" ng-model="rememberme" name="rememberme" aria-label="Remember Me">
+                        <span class="f3">Remember Me</span>
+                    </md-checkbox>
+
+                    <a class="right" onClick="location.href='forgot-password.html'">Forgot Password</a>
+
+                </div>
+
+                <div layout="column">
+                    <md-button class="btn-primary no-style" md-no-ink="false" ng-click="error=true">Sign In</md-button>
+                </div>
+                <span layout="row"><hr flex/> &nbsp; Or&nbsp; <hr flex/></span>
+
+                <div layout="column">
+                    <md-button class="btn-secondary no-style">Sign Up</md-button>
+                </div>
+
+            </form>
+        </md-content>
+    </div>
+</div>

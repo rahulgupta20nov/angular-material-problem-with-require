@@ -1,0 +1,5487 @@
+/* New Varriables Start Here */
+/* New Varriables End Here */
+/* line 1, ../scss/settings/_style-guide.scss */
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  font-size: 12px;
+  font-family: Roboto,"Helvetica Neue",sans-serif;
+}
+
+/* line 9, ../scss/settings/_style-guide.scss */
+input,
+textarea {
+  outline-style: none;
+}
+
+/*-for image link-*/
+/* line 12, ../scss/settings/_style-guide.scss */
+img {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+/* line 13, ../scss/settings/_style-guide.scss */
+a img {
+  /*filter: alpha(opacity=100); opacity:1; -moz-opacity:1; -webkit-opacity:1;*/
+  border: 0;
+}
+
+/* line 15, ../scss/settings/_style-guide.scss */
+a:hover img {
+  /*filter: alpha(opacity=90); opacity:.9; -moz-opacity:.9; -webkit-opacity:.9;*/
+  border: 0px;
+}
+
+/*Heading Definitions*/
+/* line 25, ../scss/settings/_style-guide.scss */
+a {
+  outline: 0;
+  text-decoration: none;
+  color: #FF9501;
+  cursor: pointer;
+}
+
+/* line 26, ../scss/settings/_style-guide.scss */
+a:hover, a:active {
+  outline: 0;
+  text-decoration: none;
+  color: #FF9501;
+  cursor: pointer;
+}
+
+/* Anchors a img { border: 0px; text-decoration: none; opacity:0.9; }
+a:link, a:visited {  }
+
+a:focus {outline-style: none;}
+strong, b { font-weight:800; }
+p b, p strong { font-weight:600; }
+p { font-family: 'Roboto-Light', sans-serif;  }
+.alert strong { font-weight:700; }
+p a{text-decoration:underline; }
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover { text-decoration:none; }
+*/
+/*--Commonly Used Classes works according to name-*/
+/*---Style Guide CSS---*/
+/* line 41, ../scss/settings/_style-guide.scss */
+h1 {
+  font-size: 20px;
+}
+
+/* line 42, ../scss/settings/_style-guide.scss */
+h2 {
+  font-size: 14px;
+  outline: none;
+}
+
+/* line 43, ../scss/settings/_style-guide.scss */
+.f1, .upload-options .link-add .label-txt, .form-base md-radio-group md-radio-button, .table-menu .quotes-menu-list .quote-txt .quote-number, .social-dropdown md-menu-item .input-box span, .assign-card li .card-name, .summery-widget h3, .customer-detail-tabs md-content > h3, .custom-ng-tabs md-content > h3, .forget-pass label, .forget-pass .password-rules {
+  font-size: 14px;
+  color: #333333;
+}
+
+/*-- F1: 14px #333333--*/
+/* line 44, ../scss/settings/_style-guide.scss */
+.f2, .change-image md-dialog-content .browse-image span, .change-image md-dialog-content .upload-image span, md-input-container.header-select-input md-select-value .md-text {
+  font-size: 14px;
+  color: #949494;
+}
+
+/*-- F2: 14px #A0A0A0--*/
+/* line 45, ../scss/settings/_style-guide.scss */
+.f3, .form-base md-chips .md-chip .md-chip-content span, .form-base md-chips .md-chip md-chip-template, .panel-container .panel-content .md-list-item-text h3, .notification-section .notification-list .md-subheader, .sidebar-add-service span {
+  font-size: 12px;
+  color: #333333;
+}
+
+/*-- F3: 12px #333333--*/
+/* line 46, ../scss/settings/_style-guide.scss */
+.f3-light, .data-table td .updates {
+  font-size: 12px;
+  color: #606060;
+}
+
+/*-- F3-light: 12px #606060--*/
+/* line 47, ../scss/settings/_style-guide.scss */
+.f4, .muted-btns .md-button, .panel-container .panel-content .md-list-item-text p, .table-sort span, .attribute-section .attribute-list li .col-title, .product-selection-list.active .product-price, .days .day-text {
+  font-size: 12px;
+  color: #949494;
+}
+
+/*-- F4: 12px #A0A0A0--*/
+/* line 48, ../scss/settings/_style-guide.scss */
+.f5 {
+  font-size: 13px;
+  color: #333333;
+}
+
+/*-- F5: 13px #333333--*/
+/* line 49, ../scss/settings/_style-guide.scss */
+.f6 {
+  font-size: 14px;
+  color: #fff;
+}
+
+/*-- F6: 14px #ffffff--*/
+/* line 50, ../scss/settings/_style-guide.scss */
+.f7 {
+  font-size: 12px;
+  color: #fff;
+}
+
+/*-- F7: 12px #ffffff--*/
+/* line 51, ../scss/settings/_style-guide.scss */
+.f8, .product-img-list .product-lbl.add-lbl {
+  font-size: 12px;
+  color: #FF9501;
+}
+
+/* F8: 12px   #FF9501--*/
+/* line 52, ../scss/settings/_style-guide.scss */
+.fm, .status-displayer .main-holder.active .displayer-title, .status-displayer .progress-circular-holder .progress-number, .attribute-section .title, md-input-container.header-select-input md-select-value {
+  font-weight: 500;
+}
+
+/* line 53, ../scss/settings/_style-guide.scss */
+.hide {
+  display: none;
+}
+
+/* line 54, ../scss/settings/_style-guide.scss */
+.no-padding {
+  padding: 0 !important;
+}
+
+/* line 55, ../scss/settings/_style-guide.scss */
+.no-margin {
+  margin: 0 !important;
+}
+
+/* line 56, ../scss/settings/_style-guide.scss */
+.pointer {
+  cursor: pointer;
+}
+
+/* line 58, ../scss/settings/_style-guide.scss */
+.left {
+  float: left;
+}
+
+/* line 59, ../scss/settings/_style-guide.scss */
+.right {
+  float: right;
+}
+
+/* line 60, ../scss/settings/_style-guide.scss */
+.clear {
+  clear: both;
+}
+
+/* line 61, ../scss/settings/_style-guide.scss */
+.scroll-x {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+/* line 62, ../scss/settings/_style-guide.scss */
+.scroll-hide {
+  overflow: hidden;
+}
+
+/* line 63, ../scss/settings/_style-guide.scss */
+.clearfix:after,
+.clearfix:before {
+  clear: both;
+  content: "";
+  display: block;
+  font-size: 1px;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+
+/* line 74, ../scss/settings/_style-guide.scss */
+.text-left, .product-selection-list.active ul {
+  text-align: left;
+}
+
+/* line 78, ../scss/settings/_style-guide.scss */
+.text-center, .img-replacer {
+  text-align: center;
+}
+
+/* line 82, ../scss/settings/_style-guide.scss */
+.text-right {
+  text-align: right;
+}
+
+/* line 86, ../scss/settings/_style-guide.scss */
+.v-align-mid {
+  vertical-align: middle;
+}
+
+/* line 88, ../scss/settings/_style-guide.scss */
+.no-style, .summery-widget .data-list, .attribute-section .attribute-list, .item-chips, .item-chipset, .product-img-list, .days, .search-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: none;
+}
+
+/* line 94, ../scss/settings/_style-guide.scss */
+.center-block {
+  text-align: center;
+  display: block;
+}
+
+/* line 99, ../scss/settings/_style-guide.scss */
+.PosR, .tableSetting-popup .table-settings .column-list li:nth-child(even) {
+  position: relative;
+}
+
+/* line 103, ../scss/settings/_style-guide.scss */
+:focus {
+  outline: 0;
+}
+
+/* line 106, ../scss/settings/_style-guide.scss */
+.override-max-height {
+  max-height: none !important;
+}
+
+/* line 109, ../scss/settings/_style-guide.scss */
+.camelcase {
+  text-transform: capitalize;
+}
+
+/*---Buttons Setting---*/
+/* line 116, ../scss/settings/_style-guide.scss */
+.btn {
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 7px 10px;
+}
+
+/* line 117, ../scss/settings/_style-guide.scss */
+.btn-primary, .table-menu .menu-header .md-button, .btn-primary.md-button:not([disabled]).md-focused, .table-menu .menu-header .md-button:not([disabled]).md-focused {
+  background-color: #FF9501;
+  color: #fff;
+}
+
+/* line 118, ../scss/settings/_style-guide.scss */
+.btn-primary:hover, .table-menu .menu-header .md-button:hover,
+.md-button.btn-primary:hover,
+.table-menu .menu-header .md-button:hover {
+  background-color: #C47618;
+}
+
+/* line 120, ../scss/settings/_style-guide.scss */
+.btn-primary:disabled, .table-menu .menu-header .md-button:disabled, .md-button.btn-primary[disabled]:hover, .table-menu .menu-header .md-button[disabled]:hover {
+  background-color: #FFE9CF !important;
+  color: #e2c5a6 !important;
+}
+
+/* line 121, ../scss/settings/_style-guide.scss */
+.btn-secondary, .muted-btns .md-button {
+  background-color: #f2f2f2;
+  color: #8e8e93;
+}
+
+/* line 122, ../scss/settings/_style-guide.scss */
+.btn-secondary:hover, .muted-btns .md-button:hover {
+  background-color: #c7c7c9;
+  color: #8e8e93;
+}
+
+/* line 123, ../scss/settings/_style-guide.scss */
+.btn-secondary:disabled, .muted-btns .md-button:disabled, .md-button.btn-secondary[disabled]:hover, .muted-btns .md-button[disabled]:hover {
+  background-color: #f2f2f2;
+  color: #d6d6d8;
+}
+
+/* line 124, ../scss/settings/_style-guide.scss */
+.btn-selected,
+md-toolbar:not(.md-menu-toolbar) .btn-selected:not(.md-raised) {
+  border: 1px solid #FF9501;
+  color: #333333;
+}
+
+/* line 126, ../scss/settings/_style-guide.scss */
+.location-symbol, .image-tabs li .img-tab-container .selection-counter {
+  display: inline-block;
+  background: #02b9f2;
+  color: #fff !important;
+  font-weight: 500;
+  font-size: 10px;
+  text-align: center;
+  line-height: 1.9;
+  border-radius: 20px;
+  padding: 0 3px !important;
+  min-width: 14px;
+  height: 18px;
+  box-sizing: content-box;
+}
+
+/* line 138, ../scss/settings/_style-guide.scss */
+.md-button {
+  text-transform: capitalize;
+}
+
+/* line 140, ../scss/settings/_style-guide.scss */
+md-radio-button[disabled], md-radio-button[disabled] .md-container {
+  opacity: 0.5;
+}
+
+/*--Text Color Styles Start--*/
+/* line 143, ../scss/settings/_style-guide.scss */
+.text-success {
+  color: #39A82D !important;
+}
+
+/* line 144, ../scss/settings/_style-guide.scss */
+.text-danger {
+  color: #F45151 !important;
+}
+
+/* line 145, ../scss/settings/_style-guide.scss */
+.text-warning {
+  color: #FFAB19 !important;
+}
+
+/* line 146, ../scss/settings/_style-guide.scss */
+.text-accent {
+  color: #02b9f2 !important;
+}
+
+/*--Text Color Styles End--*/
+/*--All Type of Alerts--*/
+/* line 150, ../scss/settings/_style-guide.scss */
+.alert-wrapper {
+  margin-bottom: 25px;
+}
+
+/* line 152, ../scss/settings/_style-guide.scss */
+.alert {
+  display: inline-block;
+  padding: 8px 15px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+/* line 162, ../scss/settings/_style-guide.scss */
+.alert-success {
+  background-color: #ABD036;
+  border-color: #ABD036;
+}
+
+/* line 167, ../scss/settings/_style-guide.scss */
+.alert-danger {
+  background-color: #FF8162;
+  border-color: #FF8162;
+}
+
+/* line 172, ../scss/settings/_style-guide.scss */
+.alert-warning {
+  background-color: #FFAB19;
+  border-color: #FFAB19;
+}
+
+/*--Alerts Css End --*/
+/*--Header start--*/
+/* line 4, ../scss/components/_header.scss */
+md-toolbar .md-ico-search {
+  margin: auto auto auto 28px;
+}
+/* line 7, ../scss/components/_header.scss */
+md-toolbar:not(.md-menu-toolbar) .md-button:not(.md-raised) {
+  color: #fff;
+}
+/* line 10, ../scss/components/_header.scss */
+md-toolbar.main-header {
+  background-color: #424853;
+  color: #fff;
+  min-height: 64px;
+}
+/* line 14, ../scss/components/_header.scss */
+md-toolbar.main-header .md-toolbar-tools {
+  padding-right: 20px;
+}
+@media screen and (max-width: 600px) {
+  /* line 14, ../scss/components/_header.scss */
+  md-toolbar.main-header .md-toolbar-tools {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 960px) {
+  /* line 19, ../scss/components/_header.scss */
+  md-toolbar.main-header .md-toolbar-tools .md-button:not(.no-color) {
+    background-color: #FF9501;
+  }
+}
+/* line 24, ../scss/components/_header.scss */
+md-toolbar.main-header .md-toolbar-tools .md-icon-button {
+  margin-left: 5px;
+  margin-right: 0;
+  padding: 0;
+}
+/* line 28, ../scss/components/_header.scss */
+md-toolbar.main-header .md-toolbar-tools .md-icon-button md-icon {
+  height: 30px;
+  width: 30px;
+}
+/* line 33, ../scss/components/_header.scss */
+md-toolbar.main-header .md-toolbar-tools .md-icon-button.no-marg-top md-icon {
+  margin-top: 0;
+}
+/* line 38, ../scss/components/_header.scss */
+md-toolbar.main-header .md-toolbar-tools .back-btn:not(.color) {
+  padding: 0;
+  min-width: 72px;
+  background-color: #424853;
+}
+/* line 42, ../scss/components/_header.scss */
+md-toolbar.main-header .md-toolbar-tools .back-btn:not(.color):hover {
+  background-color: #424853;
+}
+/* line 46, ../scss/components/_header.scss */
+md-toolbar.main-header .md-toolbar-tools .hamburger-dot:before {
+  content: "\2022 \00a0 \2022 \00a0 \2022";
+  display: block;
+  font-size: 14px;
+  color: #fff;
+  transform: rotate(90deg);
+  margin-left: -3px;
+}
+@media screen and (max-width: 599px) {
+  /* line 14, ../scss/components/_header.scss */
+  md-toolbar.main-header .md-toolbar-tools {
+    padding: 0 10px;
+  }
+  /* line 56, ../scss/components/_header.scss */
+  md-toolbar.main-header .md-toolbar-tools .md-icon-button {
+    margin-left: 5px;
+    margin-right: 0;
+  }
+  /* line 60, ../scss/components/_header.scss */
+  md-toolbar.main-header .md-toolbar-tools .back-btn:not(.color) {
+    min-width: 35px;
+  }
+  /* line 63, ../scss/components/_header.scss */
+  md-toolbar.main-header .md-toolbar-tools .head-menu {
+    margin-left: 0;
+    margin-right: 2px;
+  }
+}
+/* line 69, ../scss/components/_header.scss */
+md-toolbar.main-header .md-button {
+  color: #fff;
+  line-height: 30px;
+  min-height: 30px;
+  font-weight: normal;
+}
+/* line 73, ../scss/components/_header.scss */
+md-toolbar.main-header .md-button.btn-primary, md-toolbar.main-header .table-menu .menu-header .md-button, .table-menu .menu-header md-toolbar.main-header .md-button {
+  min-width: 75px;
+}
+/* line 77, ../scss/components/_header.scss */
+md-toolbar.main-header .md-button:first-child {
+  margin: 0;
+}
+/* line 81, ../scss/components/_header.scss */
+md-toolbar.main-header .md-button:last-child {
+  margin-right: 0;
+}
+/* line 85, ../scss/components/_header.scss */
+md-toolbar.main-header .md-button.md-icon-button {
+  margin: 0;
+}
+/* line 89, ../scss/components/_header.scss */
+md-toolbar.main-header .icon-menu {
+  height: 21px;
+  width: 21px;
+}
+/* line 93, ../scss/components/_header.scss */
+md-toolbar.main-header .btn-default .icon-ico-back-arrow {
+  height: 22px;
+  width: 16px;
+  vertical-align: middle;
+}
+/* line 98, ../scss/components/_header.scss */
+md-toolbar.main-header .btn-default .ng-scope {
+  vertical-align: middle;
+  text-transform: initial;
+  font-weight: bold;
+}
+/* line 103, ../scss/components/_header.scss */
+md-toolbar.main-header .btn-default .icon-ico-small-right-arrow {
+  height: 16px;
+  width: 14px;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 959px) and (min-width: 0) {
+  /* line 113, ../scss/components/_header.scss */
+  .md-toolbar-tools {
+    height: 64px;
+    max-height: 64px;
+  }
+}
+/*--Header End--*/
+/*--Footer start--*/
+/* line 3, ../scss/components/_footer.scss */
+.md-toolbar-tools h1 {
+  font-size: inherit;
+  font-weight: inherit;
+  margin: inherit;
+}
+
+/* line 9, ../scss/components/_footer.scss */
+md-toolbar.footer {
+  border-top: 1px solid #dbdbdb;
+  background-color: #f9f9f9;
+  z-index: 61;
+}
+
+/* line 15, ../scss/components/_footer.scss */
+.footer .md-toolbar-tools,
+.footer-menu {
+  max-height: 65px;
+  height: 65px;
+}
+
+/* line 21, ../scss/components/_footer.scss */
+.footer-bg {
+  background-color: #f9f9f9;
+  color: #2a2a2a;
+}
+
+/* line 26, ../scss/components/_footer.scss */
+.user-settings {
+  position: absolute;
+  cursor: pointer;
+  top: 14px;
+  right: 25px;
+  height: 35px;
+  width: 35px;
+  background: url("../../images/icons/footer-menu/ico-footer-user.svg") center center no-repeat;
+  background-size: 35px;
+}
+/* line 35, ../scss/components/_footer.scss */
+.user-settings span {
+  position: absolute;
+  top: -2px;
+  right: -6px;
+  display: inline-block;
+  background: #02b9f2;
+  color: #fff;
+  font-weight: 500;
+  font-size: 10px;
+  text-align: center;
+  line-height: 1.7;
+  border-radius: 20px;
+  padding: 0 4px;
+  min-width: 0;
+  height: 15px;
+}
+/* line 51, ../scss/components/_footer.scss */
+.user-settings md-icon {
+  width: 32px;
+  height: 32px;
+}
+
+/* line 57, ../scss/components/_footer.scss */
+.footer-menu {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+/* line 61, ../scss/components/_footer.scss */
+.footer-menu li {
+  display: inline-block;
+  padding: 6px 5px 6px;
+  min-width: 75px;
+  text-align: center;
+}
+/* line 66, ../scss/components/_footer.scss */
+.footer-menu li:not(.no-bg):hover {
+  background-color: #eaeaea;
+  cursor: pointer;
+}
+/* line 70, ../scss/components/_footer.scss */
+.footer-menu li:not(.no-bg).active {
+  background-color: #eaeaea;
+  cursor: pointer;
+}
+/* line 74, ../scss/components/_footer.scss */
+.footer-menu li md-icon {
+  height: 35px;
+  width: 35px;
+}
+/* line 78, ../scss/components/_footer.scss */
+.footer-menu li label {
+  display: block;
+  font-size: 13px;
+  padding-top: 4px;
+  cursor: pointer;
+}
+
+/* line 88, ../scss/components/_footer.scss */
+.footer-dropdwn-menu {
+  padding: 0;
+}
+/* line 90, ../scss/components/_footer.scss */
+.footer-dropdwn-menu[width="3"] {
+  min-width: 155px;
+}
+/* line 94, ../scss/components/_footer.scss */
+.footer-dropdwn-menu md-menu-item {
+  border-bottom: 1px solid #dbdbdb;
+  min-height: 0;
+  height: 36px;
+}
+/* line 99, ../scss/components/_footer.scss */
+.footer-dropdwn-menu md-menu-item:nth-child {
+  border-bottom: 0;
+}
+/* line 104, ../scss/components/_footer.scss */
+.footer-dropdwn-menu:after, .footer-dropdwn-menu:before {
+  top: 99.7%;
+  right: 0;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+/* line 115, ../scss/components/_footer.scss */
+.footer-dropdwn-menu:after {
+  border-color: rgba(136, 183, 213, 0);
+  border-top-color: #FFFFFF;
+  border-width: 10px;
+  margin-right: 24px;
+}
+/* line 121, ../scss/components/_footer.scss */
+.footer-dropdwn-menu:before {
+  border-color: rgba(194, 225, 245, 0);
+  border-top-color: #CCCCCC;
+  border-width: 12px;
+  margin-right: 22px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* line 132, ../scss/components/_footer.scss */
+  .user-settings {
+    position: absolute;
+    top: 6px;
+    right: 23px;
+  }
+
+  /* line 137, ../scss/components/_footer.scss */
+  .footer-menu {
+    text-align: center;
+    border-top: 15px;
+  }
+  /* line 140, ../scss/components/_footer.scss */
+  .footer-menu .menu-title {
+    font-size: 12px;
+  }
+  /* line 143, ../scss/components/_footer.scss */
+  .footer-menu:before {
+    content: "\2022 \00a0 \2022 \00a0 \2022";
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    padding: 15px 5px;
+    border-bottom: 1px solid #dbdbdb;
+    color: #cccccc;
+    margin-bottom: 10px;
+  }
+
+  /* line 154, ../scss/components/_footer.scss */
+  .footer {
+    min-height: 46px;
+  }
+  /* line 156, ../scss/components/_footer.scss */
+  .footer .md-toolbar-tools {
+    padding: 0;
+    max-height: 34px;
+    webkit-transition: all 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transition: all 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+  /* line 163, ../scss/components/_footer.scss */
+  .footer .footer-menu {
+    height: 100%;
+  }
+
+  /* line 168, ../scss/components/_footer.scss */
+  .open.footer .md-toolbar-tools {
+    height: 100%;
+    max-height: 200px;
+  }
+  /* line 172, ../scss/components/_footer.scss */
+  .open.footer .footer-menu {
+    max-height: 100%;
+  }
+
+  /* line 176, ../scss/components/_footer.scss */
+  .footer-menu li.no-bg {
+    padding: 0;
+    width: 0;
+  }
+}
+@media only screen and (max-width: 439px) {
+  /* line 183, ../scss/components/_footer.scss */
+  .open.footer .md-toolbar-tools {
+    max-height: 260px;
+  }
+}
+/* Footer End*/
+/* SideNav Start */
+/* line 3, ../scss/components/_sidenav.scss */
+.md-sidenav-left {
+  background: #f2f2f2;
+  padding-right: 1px;
+  /* extend custom scroll via duplicate code*/
+}
+/* line 7, ../scss/components/_sidenav.scss */
+.md-sidenav-left::-webkit-scrollbar {
+  width: 6px;
+}
+/* line 10, ../scss/components/_sidenav.scss */
+.md-sidenav-left::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+}
+/* line 13, ../scss/components/_sidenav.scss */
+.md-sidenav-left::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+}
+/* line 17, ../scss/components/_sidenav.scss */
+.md-sidenav-left::-webkit-scrollbar:horizontal {
+  width: 6px;
+}
+/* line 20, ../scss/components/_sidenav.scss */
+.md-sidenav-left::-webkit-scrollbar-track:horizontal {
+  background: rgba(0, 0, 0, 0.1);
+}
+/* line 23, ../scss/components/_sidenav.scss */
+.md-sidenav-left::-webkit-scrollbar-thumb:horizontal {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+}
+/* line 27, ../scss/components/_sidenav.scss */
+.md-sidenav-left.md-locked-open {
+  transition: all ease-in-out 1s;
+  width: 185px;
+  min-width: 185px;
+}
+/* line 32, ../scss/components/_sidenav.scss */
+.md-sidenav-left .side-menu-list {
+  margin-top: 14px;
+}
+/* line 34, ../scss/components/_sidenav.scss */
+.md-sidenav-left .side-menu-list > li {
+  border-bottom: #dbdbdb solid 1px;
+}
+/* line 36, ../scss/components/_sidenav.scss */
+.md-sidenav-left .side-menu-list > li:hover {
+  background: #eaeaea;
+}
+/* line 40, ../scss/components/_sidenav.scss */
+.md-sidenav-left .side-menu-list .sidebar-add-service {
+  margin-bottom: 10px;
+  margin-left: 7px;
+}
+/* line 44, ../scss/components/_sidenav.scss */
+.md-sidenav-left .side-menu-list li {
+  cursor: pointer;
+  color: #333333;
+  font-size: 13px;
+  font-weight: 400;
+  position: relative;
+}
+/* line 50, ../scss/components/_sidenav.scss */
+.md-sidenav-left .side-menu-list li .title {
+  padding: 10px 12px;
+}
+/* line 53, ../scss/components/_sidenav.scss */
+.md-sidenav-left .side-menu-list li a {
+  color: #333333;
+}
+/* line 56, ../scss/components/_sidenav.scss */
+.md-sidenav-left .side-menu-list li span {
+  cursor: pointer;
+}
+/* line 67, ../scss/components/_sidenav.scss */
+.md-sidenav-left .side-menu-list li .sublist-option {
+  font-size: 12px;
+  color: #2a2a2a;
+}
+/* line 70, ../scss/components/_sidenav.scss */
+.md-sidenav-left .side-menu-list li .sublist-option md-icon {
+  width: 16px;
+  height: 15px;
+  margin-right: 4px;
+}
+/* line 76, ../scss/components/_sidenav.scss */
+.md-sidenav-left .side-menu-list li.active {
+  color: #02b9f2;
+  position: relative;
+}
+/* line 84, ../scss/components/_sidenav.scss */
+.md-sidenav-left .side-menu-list li.active md-icon svg path {
+  fill: #02b9f2;
+}
+/* line 105, ../scss/components/_sidenav.scss */
+.md-sidenav-left .side-menu-list li .menu-icon {
+  width: 15px;
+  height: 15px;
+  vertical-align: top;
+  margin-right: 5px;
+}
+/* line 111, ../scss/components/_sidenav.scss */
+.md-sidenav-left .side-menu-list li .menu-icon svg path {
+  fill: #000;
+}
+/* line 116, ../scss/components/_sidenav.scss */
+.md-sidenav-left .side-menu-list li ul {
+  /*                 margin-top: 10px;
+  margin-left: -12px;
+  margin-right: -13px; */
+}
+/* line 122, ../scss/components/_sidenav.scss */
+.md-sidenav-left .side-menu-list li ul li {
+  text-indent: 25px;
+  border-right: transparent solid 4px;
+}
+/* line 126, ../scss/components/_sidenav.scss */
+.md-sidenav-left .side-menu-list li ul li.selected {
+  background: #fff;
+  color: #02b9f2;
+  position: relative;
+  border-color: #02b9f2;
+  /* &:after {
+      content: "";
+      position: absolute;
+      right: -12px;
+      top: 5px;
+      bottom: 2px;
+      width: 4px;
+      background: $brand-accent;
+  } */
+}
+/* line 141, ../scss/components/_sidenav.scss */
+.md-sidenav-left .side-menu-list li ul li span {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 151, ../scss/components/_sidenav.scss */
+  .md-sidenav-right.inside-container {
+    bottom: 36px !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* line 157, ../scss/components/_sidenav.scss */
+  .md-sidenav-right.inside-container {
+    top: 62px;
+  }
+
+  /* line 160, ../scss/components/_sidenav.scss */
+  md-toolbar {
+    min-height: 56px;
+  }
+}
+@media screen and (min-width: 600px) {
+  /* line 166, ../scss/components/_sidenav.scss */
+  .md-sidenav-left {
+    max-width: 245px;
+  }
+}
+/*SideNav End*/
+/**Scss Common Popups Used**/
+/* line 2, ../scss/components/_popups.scss */
+.change-image {
+  width: 675px;
+  overflow: hidden;
+}
+/* line 8, ../scss/components/_popups.scss */
+.change-image .main-header .md-toolbar-tools .md-icon-button md-icon {
+  height: 18px;
+  width: 18px;
+}
+/* line 13, ../scss/components/_popups.scss */
+.change-image .main-header .md-toolbar-tools .md-icon-button md-icon svg path {
+  fill: #fff;
+}
+/* line 19, ../scss/components/_popups.scss */
+.change-image .main-header .end-btn {
+  min-width: 72px;
+}
+/* line 24, ../scss/components/_popups.scss */
+.change-image md-dialog-content {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  overflow: hidden;
+}
+/* line 30, ../scss/components/_popups.scss */
+.change-image md-dialog-content .browse-image {
+  border-right: 1px solid #eaeaea;
+  padding: 20px 0;
+}
+/* line 34, ../scss/components/_popups.scss */
+.change-image md-dialog-content .browse-image .canvas-capture {
+  border: 1px solid #eaeaea;
+  border-radius: 100%;
+  margin-right: 35px;
+}
+/* line 40, ../scss/components/_popups.scss */
+.change-image md-dialog-content .browse-image .profile-avatar {
+  margin: 0;
+  margin-right: 35px;
+  width: 96px;
+  height: 96px;
+}
+/* line 46, ../scss/components/_popups.scss */
+.change-image md-dialog-content .browse-image .profile-avatar svg {
+  border-radius: 100%;
+  border: 1px solid #eaeaea;
+}
+/* line 52, ../scss/components/_popups.scss */
+.change-image md-dialog-content .browse-image span {
+  padding-top: 6px;
+}
+/* line 58, ../scss/components/_popups.scss */
+.change-image md-dialog-content .browse-image .md-button {
+  margin: 0;
+  padding: 0;
+  border: 1px solid #eaeaea;
+  min-width: 0;
+  width: 110px;
+  height: 36px;
+  min-height: 0;
+  line-height: 36px;
+}
+/* line 68, ../scss/components/_popups.scss */
+.change-image md-dialog-content .browse-image .md-button span {
+  color: #FF9501;
+}
+/* line 74, ../scss/components/_popups.scss */
+.change-image md-dialog-content .upload-image {
+  padding: 20px;
+}
+/* line 77, ../scss/components/_popups.scss */
+.change-image md-dialog-content .upload-image md-icon {
+  height: 45px;
+  width: 55px;
+  margin: 0;
+}
+/* line 83, ../scss/components/_popups.scss */
+.change-image md-dialog-content .upload-image span {
+  padding-top: 6px;
+}
+/* line 90, ../scss/components/_popups.scss */
+.change-image md-dialog-content .choose-image {
+  width: 100%;
+  border-top: 1px solid #eaeaea;
+  margin-top: 18px;
+  padding-top: 10px;
+}
+/* line 96, ../scss/components/_popups.scss */
+.change-image md-dialog-content .choose-image li {
+  display: inline-block;
+  padding: 20px;
+}
+/* line 100, ../scss/components/_popups.scss */
+.change-image md-dialog-content .choose-image li md-icon {
+  height: 50px;
+  width: 50px;
+}
+/* line 103, ../scss/components/_popups.scss */
+.change-image md-dialog-content .choose-image li md-icon svg {
+  border-radius: 100%;
+}
+/* line 111, ../scss/components/_popups.scss */
+.change-image md-dialog-content #capture-section #video {
+  width: 100%;
+  border: 1px solid #eaeaea;
+}
+@media only screen and (max-width: 600px) {
+  /* line 119, ../scss/components/_popups.scss */
+  .change-image md-dialog-content .browse-image {
+    border: 0;
+    border-bottom: 1px solid #eaeaea;
+  }
+  /* line 124, ../scss/components/_popups.scss */
+  .change-image md-dialog-content .choose-image {
+    text-align: center;
+  }
+  /* line 127, ../scss/components/_popups.scss */
+  .change-image md-dialog-content .choose-image li {
+    padding: 20px 10px;
+  }
+  /* line 131, ../scss/components/_popups.scss */
+  .change-image md-dialog-content .browse-image .profile-avatar {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+/***End***/
+/* line 140, ../scss/components/_popups.scss */
+.tableSetting-popup {
+  min-height: 500px;
+  max-width: 100%;
+  width: 650px;
+}
+/* line 145, ../scss/components/_popups.scss */
+.tableSetting-popup md-toolbar.main-header {
+  background-color: #fff;
+  border-bottom: 1px solid #eaeaea;
+}
+/* line 151, ../scss/components/_popups.scss */
+.tableSetting-popup .md-toolbar-tools h2 {
+  color: #2a2a2a;
+  font-size: 16px;
+}
+/* line 157, ../scss/components/_popups.scss */
+.tableSetting-popup .md-toolbar-tools .md-button:not(.no-color).header-btn {
+  min-width: 75px;
+}
+/* line 161, ../scss/components/_popups.scss */
+.tableSetting-popup .md-toolbar-tools .md-button:not(.no-color).cancel-btn {
+  background: #f2f2f2;
+  color: #949494;
+  min-width: 82px;
+}
+/* line 169, ../scss/components/_popups.scss */
+.tableSetting-popup .table-settings {
+  width: 300px;
+  margin: 70px auto 0 !important;
+  max-width: 100%;
+}
+/* line 174, ../scss/components/_popups.scss */
+.tableSetting-popup .table-settings .title {
+  margin: 0;
+  font-weight: normal;
+}
+/* line 179, ../scss/components/_popups.scss */
+.tableSetting-popup .table-settings .column-list {
+  margin-top: 20px;
+}
+/* line 182, ../scss/components/_popups.scss */
+.tableSetting-popup .table-settings .column-list li {
+  display: inline-block;
+  min-width: 48%;
+  margin-bottom: 20px;
+}
+/* line 187, ../scss/components/_popups.scss */
+.tableSetting-popup .table-settings .column-list li md-checkbox {
+  margin-bottom: 0;
+}
+/* line 191, ../scss/components/_popups.scss */
+.tableSetting-popup .table-settings .column-list li md-checkbox.md-checked[disabled="disabled"] .md-icon {
+  background-color: #D7EEF4;
+  border: 1px solid #B2C6CD;
+}
+/* line 195, ../scss/components/_popups.scss */
+.tableSetting-popup .table-settings .column-list li md-checkbox.md-checked[disabled="disabled"] .md-icon:after {
+  border-color: #b2c6cd;
+}
+/* line 201, ../scss/components/_popups.scss */
+.tableSetting-popup .table-settings .column-list li md-checkbox .md-label {
+  color: #606060;
+}
+/* line 206, ../scss/components/_popups.scss */
+.tableSetting-popup .table-settings .column-list li:nth-child(even) {
+  right: -5px;
+}
+
+/* line 1, ../scss/components/_attachDocuments.scss */
+.upload-options {
+  padding: 8px 12px;
+}
+/* line 5, ../scss/components/_attachDocuments.scss */
+.upload-options.form-base md-input-container {
+  margin-bottom: 0;
+}
+/* line 10, ../scss/components/_attachDocuments.scss */
+.upload-options .attach-icon {
+  margin-right: 4px;
+  margin-bottom: 2px;
+  transform: rotate(-36deg);
+}
+/* line 15, ../scss/components/_attachDocuments.scss */
+.upload-options .attach-icon svg path {
+  fill: #FF9501;
+}
+/* line 20, ../scss/components/_attachDocuments.scss */
+.upload-options .title {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0 0 0 -4px;
+  vertical-align: middle;
+}
+/* line 28, ../scss/components/_attachDocuments.scss */
+.upload-options md-divider {
+  border-top-color: rgba(0, 0, 0, 0.12) !important;
+  margin-top: 5px;
+}
+/* line 34, ../scss/components/_attachDocuments.scss */
+.upload-options .upload-buttons {
+  width: 100%;
+}
+/* line 37, ../scss/components/_attachDocuments.scss */
+.upload-options .upload-buttons li {
+  margin-bottom: 12px;
+}
+/* line 40, ../scss/components/_attachDocuments.scss */
+.upload-options .upload-buttons li:first-child {
+  padding-left: 5px;
+  min-height: 36px;
+  height: 36px;
+  line-height: 36px;
+  margin-bottom: 12px;
+}
+/* line 48, ../scss/components/_attachDocuments.scss */
+.upload-options .upload-buttons li md-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
+}
+/* line 54, ../scss/components/_attachDocuments.scss */
+.upload-options .upload-buttons li .md-button {
+  min-width: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  padding-left: 5px;
+}
+/* line 65, ../scss/components/_attachDocuments.scss */
+.upload-options .link-add {
+  width: 100%;
+  margin-top: 15px;
+}
+/* line 69, ../scss/components/_attachDocuments.scss */
+.upload-options .link-add md-divider {
+  margin-bottom: 20px;
+}
+/* line 73, ../scss/components/_attachDocuments.scss */
+.upload-options .link-add .label-txt {
+  display: inline-block;
+  margin-bottom: 15px;
+  vertical-align: top;
+}
+/* line 81, ../scss/components/_attachDocuments.scss */
+.upload-options .link-add input {
+  background: #fff;
+}
+
+/*CSS Document*/
+/*Don't use undescore(_)*/
+/*Don't define font family in body*/
+/*UseProper name for css*/
+/*--DEFAULT TAGS DEfinition END--*/
+/* line 13, ../scss/settings/_custom.scss */
+body > .wrapper {
+  opacity: 0;
+}
+
+/* line 17, ../scss/settings/_custom.scss */
+.page-loading {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+  z-index: 999;
+  background: #fff;
+}
+/* line 27, ../scss/settings/_custom.scss */
+.page-loading img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+
+/* Head section style*/
+/* line 39, ../scss/settings/_custom.scss */
+.app-title {
+  text-align: center;
+}
+/* line 42, ../scss/settings/_custom.scss */
+.app-title span {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+/*--Md -BackDrop Class--*/
+/* line 50, ../scss/settings/_custom.scss */
+md-backdrop.md-loader {
+  z-index: 1000;
+}
+/* line 53, ../scss/settings/_custom.scss */
+md-backdrop.md-loader:after {
+  content: "";
+  z-index: 10;
+  opacity: 0.48;
+  background: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+/* line 65, ../scss/settings/_custom.scss */
+md-backdrop.md-loader md-progress-circular {
+  z-index: 11;
+}
+/* line 68, ../scss/settings/_custom.scss */
+md-backdrop.md-loader md-progress-circular .md-inner .md-right .md-half-circle {
+  border-right-color: #FF9501;
+  border-top-color: #FF9501;
+}
+/* line 73, ../scss/settings/_custom.scss */
+md-backdrop.md-loader md-progress-circular .md-inner .md-left .md-half-circle {
+  border-left-color: #FF9501;
+  border-top-color: #FF9501;
+}
+
+/*--End Backdrop--*/
+/* line 83, ../scss/settings/_custom.scss */
+.status-dropmenu.scheduling-detail-menu {
+  max-height: none;
+}
+/* line 84, ../scss/settings/_custom.scss */
+.status-dropmenu.scheduling-detail-menu:before {
+  border-width: 7px;
+  margin-right: 15.8px;
+}
+/* line 89, ../scss/settings/_custom.scss */
+.status-dropmenu.scheduling-detail-menu:after {
+  border-width: 6.9px;
+  margin-right: 16.6px;
+}
+/* line 97, ../scss/settings/_custom.scss */
+.status-dropmenu.scheduling-detail-menu md-radio-group,
+.status-dropmenu.scheduling-detail-menu md-radio-group md-radio-button {
+  margin-right: 0;
+  width: 100%;
+}
+/* line 103, ../scss/settings/_custom.scss */
+.status-dropmenu.scheduling-detail-menu md-radio-group md-radio-button {
+  margin-bottom: 0;
+}
+/* line 107, ../scss/settings/_custom.scss */
+.status-dropmenu.scheduling-detail-menu md-radio-group .md-label {
+  font-size: 16px;
+  margin-left: 34px;
+}
+/* line 115, ../scss/settings/_custom.scss */
+.status-dropmenu md-menu-item:hover {
+  background-color: rgba(158, 158, 158, 0.2);
+}
+/* line 119, ../scss/settings/_custom.scss */
+.status-dropmenu md-menu-item:not(:last-child) {
+  border-bottom: 1px solid #dbdbdb;
+}
+/* line 123, ../scss/settings/_custom.scss */
+.status-dropmenu md-menu-item.thick-border {
+  border-width: 5px;
+}
+/* line 127, ../scss/settings/_custom.scss */
+.status-dropmenu md-menu-item .md-button md-icon {
+  margin-right: 10px;
+}
+
+/*--Side Menu Wrap--*/
+/* line 136, ../scss/settings/_custom.scss */
+.leftnav-wrap {
+  height: 100%;
+  overflow: auto;
+}
+
+/* line 141, ../scss/settings/_custom.scss */
+.rightnav-wrap {
+  height: 100%;
+  overflow: auto;
+}
+
+/*--End Wrap--*/
+/* line 147, ../scss/settings/_custom.scss */
+.no-img-name {
+  height: 35px;
+  width: 35px;
+  line-height: 2.8;
+  margin-right: 8px;
+  border-radius: 100%;
+  text-align: center;
+}
+/* line 155, ../scss/settings/_custom.scss */
+.no-img-name span {
+  vertical-align: middle;
+  font-size: 14px;
+}
+/* line 160, ../scss/settings/_custom.scss */
+.no-img-name.palette1 {
+  background-color: #FFE295;
+  color: #BFA159;
+}
+/* line 165, ../scss/settings/_custom.scss */
+.no-img-name.palette2 {
+  background-color: #ffb087;
+  color: #af6443;
+}
+/* line 170, ../scss/settings/_custom.scss */
+.no-img-name.palette3 {
+  background-color: #8fe2ff;
+  color: #478da0;
+}
+
+/* line 176, ../scss/settings/_custom.scss */
+md-toolbar.main-header .md-toolbar-tools .md-icon-button.close-popup {
+  height: 18px;
+  width: 18px;
+}
+/* line 180, ../scss/settings/_custom.scss */
+md-toolbar.main-header .md-toolbar-tools .md-icon-button.close-popup md-icon {
+  height: 18px;
+  width: 18px;
+}
+/* line 185, ../scss/settings/_custom.scss */
+md-toolbar.main-header .md-toolbar-tools .md-icon-button.close-popup md-icon svg path {
+  fill: #fff;
+}
+
+/* Filter tool bar */
+/* line 193, ../scss/settings/_custom.scss */
+.filters-bar {
+  background: #F1F1F1 !important;
+  border-radius: 5px;
+  padding: 5px 18px 10px;
+  margin: 20px 18px 16px;
+  width: auto;
+  min-height: 0;
+}
+/* line 201, ../scss/settings/_custom.scss */
+.filters-bar md-input-container.md-input-has-value label:not(.md-no-float),
+.filters-bar md-input-container.md-input-focused label:not(.md-no-float) {
+  -webkit-transform: translate3d(0, 16px, 0) scale(0.75);
+  transform: translate3d(0, 16px, 0) scale(0.75);
+}
+/* line 207, ../scss/settings/_custom.scss */
+.filters-bar .filter-label {
+  color: #333;
+  font-size: 12px;
+  margin-right: 20px;
+  margin-top: 12px;
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 216, ../scss/settings/_custom.scss */
+.filters-bar .date-picker {
+  margin-top: 5px;
+}
+/* line 220, ../scss/settings/_custom.scss */
+.filters-bar .close-icon {
+  height: 15px;
+  width: 15px;
+  margin: 0;
+  position: absolute;
+  right: 20px;
+  top: 18px;
+}
+/* line 229, ../scss/settings/_custom.scss */
+.filters-bar .close-icon svg path {
+  fill: #B1B3B6;
+}
+/* line 235, ../scss/settings/_custom.scss */
+.filters-bar .inner-inputs {
+  display: inline-block;
+  vertical-align: top;
+  width: 90%;
+}
+/* line 240, ../scss/settings/_custom.scss */
+.filters-bar .inner-inputs li {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 35px;
+  max-height: 35px;
+}
+/* line 250, ../scss/settings/_custom.scss */
+.filters-bar md-input-container {
+  margin: 0;
+}
+/* line 253, ../scss/settings/_custom.scss */
+.filters-bar md-input-container .md-input, .filters-bar md-input-container md-select {
+  height: 30px;
+  width: 110px;
+  line-height: 1;
+  font-size: 14px;
+  margin-top: 5px;
+}
+/* line 262, ../scss/settings/_custom.scss */
+.filters-bar md-datepicker.md-default-theme, .filters-bar md-datepicker {
+  background: transparent;
+  margin-right: 50px;
+}
+/* line 266, ../scss/settings/_custom.scss */
+.filters-bar md-datepicker.md-default-theme .md-datepicker-input-container, .filters-bar md-datepicker .md-datepicker-input-container {
+  margin: 0;
+  padding-left: 3px;
+}
+/* line 273, ../scss/settings/_custom.scss */
+.filters-bar md-datepicker.md-default-theme .md-datepicker-calendar-icon svg path, .filters-bar md-datepicker .md-datepicker-calendar-icon svg path {
+  fill: #FF9501;
+}
+/* line 279, ../scss/settings/_custom.scss */
+.filters-bar md-datepicker.md-default-theme .md-datepicker-button, .filters-bar md-datepicker .md-datepicker-button {
+  margin: 0;
+  position: absolute;
+  right: 24px;
+  top: -5px;
+}
+
+/***ARchive Header by Selectiing the table***/
+/* line 290, ../scss/settings/_custom.scss */
+md-toolbar.archive-header {
+  background-color: #292D33;
+  color: #fff;
+}
+/* line 294, ../scss/settings/_custom.scss */
+md-toolbar.archive-header .md-toolbar-tools .back-btn:not(.color) {
+  background-color: transparent;
+}
+
+/***ARchive Header by Selectiing the table End***/
+/* line 301, ../scss/settings/_custom.scss */
+.wrapper {
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* line 308, ../scss/settings/_custom.scss */
+.svg-grey svg path {
+  fill: #949494;
+}
+
+/* line 314, ../scss/settings/_custom.scss */
+.space-right {
+  margin-right: 15px !important;
+}
+
+/*--Drop down menu Css*/
+/* line 321, ../scss/settings/_custom.scss */
+.md-open-menu-container .md-button:not([disabled]).md-focused {
+  background: transparent;
+}
+/* line 324, ../scss/settings/_custom.scss */
+.md-open-menu-container .md-button:not([disabled]).md-focused:hover {
+  background-color: rgba(158, 158, 158, 0.2);
+}
+/* line 329, ../scss/settings/_custom.scss */
+.md-open-menu-container .btn-primary.md-button:not([disabled]).md-focused, .md-open-menu-container .table-menu .menu-header .md-button:not([disabled]).md-focused, .table-menu .menu-header .md-open-menu-container .md-button:not([disabled]).md-focused {
+  background-color: #FF9501;
+  color: #fff;
+}
+/* line 333, ../scss/settings/_custom.scss */
+.md-open-menu-container .btn-primary.md-button:not([disabled]).md-focused:hover, .md-open-menu-container .table-menu .menu-header .md-button:not([disabled]).md-focused:hover, .table-menu .menu-header .md-open-menu-container .md-button:not([disabled]).md-focused:hover {
+  background-color: #C47618;
+}
+/* line 338, ../scss/settings/_custom.scss */
+.md-open-menu-container .btn-secondary.md-button:not([disabled]).md-focused, .md-open-menu-container .muted-btns .md-button:not([disabled]).md-focused, .muted-btns .md-open-menu-container .md-button:not([disabled]).md-focused {
+  background-color: #f2f2f2;
+  color: #8e8e93;
+}
+/* line 342, ../scss/settings/_custom.scss */
+.md-open-menu-container .btn-secondary.md-button:not([disabled]).md-focused:hover, .md-open-menu-container .muted-btns .md-button:not([disabled]).md-focused:hover, .muted-btns .md-open-menu-container .md-button:not([disabled]).md-focused:hover {
+  background-color: #c7c7c9;
+  color: #8e8e93;
+}
+
+/* line 353, ../scss/settings/_custom.scss */
+.status-dropmenu {
+  background: #fff;
+  border: 1px solid #CFDADE;
+  border-top: 0;
+  border-radius: 5px;
+  padding: 0;
+  width: 120px;
+}
+/* line 361, ../scss/settings/_custom.scss */
+.status-dropmenu md-menu-divider {
+  margin: 0;
+  background: transparent;
+  border-top: 1px dotted #B0A6A6;
+}
+
+/* line 368, ../scss/settings/_custom.scss */
+.status-dropmenu:after,
+.status-dropmenu:before {
+  bottom: 100%;
+  right: 8px;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+/* line 380, ../scss/settings/_custom.scss */
+.status-dropmenu:after {
+  border-color: rgba(136, 183, 213, 0);
+  border-bottom-color: #fff;
+  border-width: 4px;
+  margin-right: 0.5px;
+}
+
+/* line 387, ../scss/settings/_custom.scss */
+.status-dropmenu:before {
+  border-color: rgba(194, 225, 245, 0);
+  border-bottom-color: #CFDADE;
+  border-width: 6px;
+  margin-right: -2px;
+}
+
+/* line 395, ../scss/settings/_custom.scss */
+.input-dropdown:after {
+  margin-right: 43px;
+}
+/* line 399, ../scss/settings/_custom.scss */
+.input-dropdown:before {
+  margin-right: 41px;
+}
+/* line 403, ../scss/settings/_custom.scss */
+.input-dropdown md-menu-item {
+  padding: 10px;
+}
+/* line 406, ../scss/settings/_custom.scss */
+.input-dropdown md-menu-item input {
+  border: 1px solid #dbdbdb;
+  height: 36px;
+  min-width: 0;
+  border-radius: 3px;
+  padding-right: 32px;
+}
+/* line 414, ../scss/settings/_custom.scss */
+.input-dropdown md-menu-item .md-button {
+  border-radius: 3px;
+  height: 35px;
+  margin-left: 5px;
+  max-width: 100px;
+  text-align: center;
+  min-width: 0;
+  position: absolute;
+  top: 15px;
+  right: 3px;
+}
+
+/* line 428, ../scss/settings/_custom.scss */
+.head-menu {
+  padding: 0;
+}
+/* line 431, ../scss/settings/_custom.scss */
+.head-menu md-menu-item {
+  border-bottom: 1px solid #dbdbdb;
+  min-height: 0;
+  height: 38px;
+}
+/* line 436, ../scss/settings/_custom.scss */
+.head-menu md-menu-item:nth-child {
+  border-bottom: 0;
+}
+/* line 441, ../scss/settings/_custom.scss */
+.head-menu:after {
+  border-width: 8px;
+  margin-right: 16.5px;
+}
+/* line 446, ../scss/settings/_custom.scss */
+.head-menu:before {
+  border-width: 8px;
+  margin-right: 17px;
+}
+
+/*--End8--*/
+/*--Custom Scroll View--*/
+/* line 457, ../scss/settings/_custom.scss */
+.custom-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+/* line 461, ../scss/settings/_custom.scss */
+.custom-scroll::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+}
+/* line 465, ../scss/settings/_custom.scss */
+.custom-scroll::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+}
+/* line 470, ../scss/settings/_custom.scss */
+.custom-scroll::-webkit-scrollbar:horizontal {
+  width: 6px;
+}
+/* line 474, ../scss/settings/_custom.scss */
+.custom-scroll::-webkit-scrollbar-track:horizontal {
+  background: rgba(0, 0, 0, 0.1);
+}
+/* line 478, ../scss/settings/_custom.scss */
+.custom-scroll::-webkit-scrollbar-thumb:horizontal {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+}
+
+/*--Custom Scroll View End--*/
+/***Menu Close button***/
+/* line 488, ../scss/settings/_custom.scss */
+.md-sidenav-right {
+  overflow: visible;
+}
+/* line 491, ../scss/settings/_custom.scss */
+.md-sidenav-right .sidenav-close {
+  background: #f2f2f2;
+  border-radius: 3px;
+  position: absolute;
+  left: -25px;
+  top: 30px;
+  z-index: 0;
+  margin: 0;
+  padding: 7px;
+  min-width: 0;
+  width: auto;
+  min-height: 0;
+  height: 30px;
+  cursor: pointer;
+}
+/* line 506, ../scss/settings/_custom.scss */
+.md-sidenav-right .sidenav-close:not([disabled]).md-icon-button:hover, .md-sidenav-right .sidenav-close:not([disabled]):hover {
+  background: #f2f2f2;
+}
+/* line 511, ../scss/settings/_custom.scss */
+.md-sidenav-right .sidenav-close md-icon {
+  height: 12px;
+  width: 12px;
+}
+
+/****END****/
+/* line 520, ../scss/settings/_custom.scss */
+.muted-btns {
+  margin: 15px 0;
+  display: inline-block;
+}
+/* line 524, ../scss/settings/_custom.scss */
+.muted-btns .md-button {
+  font-weight: normal;
+  margin: 0;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  height: 30px;
+  min-height: 30px;
+  line-height: 30px;
+  min-width: auto;
+  background: #f2f2f2;
+  width: auto;
+  padding: 0 10px;
+}
+
+/*--Text start from left--*/
+/* line 545, ../scss/settings/_custom.scss */
+.text-start-left {
+  display: inline-block;
+  text-align: left;
+}
+
+/* line 550, ../scss/settings/_custom.scss */
+.ico-cross {
+  transform: rotate(45deg);
+  margin-left: 10px;
+  height: 18px;
+  width: 18px;
+  display: inline-block;
+  vertical-align: bottom;
+}
+/* line 559, ../scss/settings/_custom.scss */
+.ico-cross svg path {
+  fill: #FF9501;
+}
+
+/*-----------------*/
+/* Item Quantity Box*/
+/* line 570, ../scss/settings/_custom.scss */
+.item-quantity-box input {
+  width: 45px;
+  height: 30px;
+  padding: 2px 10px;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  text-align: center;
+  margin: 0 7px;
+  color: #949494;
+}
+
+/*End */
+/*--ng-home--*/
+/* line 586, ../scss/settings/_custom.scss */
+.btn-outline {
+  border: #fff solid 1px;
+}
+
+/* line 590, ../scss/settings/_custom.scss */
+.ico-btn-edit {
+  width: 25px;
+  height: 25px;
+  border: #fff solid 1px;
+  border-radius: 100%;
+  margin-right: 15px;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+/* line 602, ../scss/settings/_custom.scss */
+.ico-btn-edit .icon {
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  left: -2px;
+  top: -1px;
+}
+
+/* line 610, ../scss/settings/_custom.scss */
+.default-box {
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+  margin-left: 12px;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* line 619, ../scss/settings/_custom.scss */
+.col-2-list li {
+  margin: 10px 0px 24px;
+}
+/* line 623, ../scss/settings/_custom.scss */
+.col-2-list label {
+  color: #949494;
+}
+
+/* Error Message Hide Start*/
+/* line 630, ../scss/settings/_custom.scss */
+.md-errors-spacer {
+  display: none;
+}
+
+/* Error Message Hide End*/
+/* line 637, ../scss/settings/_custom.scss */
+.booked-row td {
+  position: relative;
+}
+/* line 640, ../scss/settings/_custom.scss */
+.booked-row td:after {
+  content: "";
+  position: absolute;
+  top: 1px;
+  bottom: 1px;
+  left: 0;
+  right: 0;
+  background: #f2f2f2;
+  opacity: 0.5;
+}
+
+/* line 653, ../scss/settings/_custom.scss */
+.archive-img-container {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  width: 30px;
+}
+/* line 660, ../scss/settings/_custom.scss */
+.archive-img-container .user-img-holder {
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background-clip: padding-box;
+  /* stops bg color from leaking outside the border: */
+  display: inline-block;
+  overflow: hidden;
+}
+/* line 666, ../scss/settings/_custom.scss */
+.archive-img-container .user-img-holder,
+.archive-img-container .user-img-holder .name-initials,
+.archive-img-container .user-img-holder img {
+  height: 100%;
+  width: 100%;
+}
+/* line 674, ../scss/settings/_custom.scss */
+.archive-img-container .user-img-holder.no-img img {
+  display: none;
+}
+/* line 678, ../scss/settings/_custom.scss */
+.archive-img-container .user-img-holder.no-img .name-initials {
+  display: block;
+}
+/* line 684, ../scss/settings/_custom.scss */
+.archive-img-container .name-initials {
+  background: #FFE9CF;
+  display: none;
+  font-size: 12px;
+  color: #FF9501;
+}
+
+/* line 693, ../scss/settings/_custom.scss */
+.data-table .touch-arrow {
+  vertical-align: middle;
+}
+/* line 694, ../scss/settings/_custom.scss */
+.data-table .ico-touch-arrow {
+  width: 15px;
+  height: 15px;
+}
+/* line 701, ../scss/settings/_custom.scss */
+.data-table.archive-img-table thead .archive-img-container {
+  height: auto;
+}
+/* line 706, ../scss/settings/_custom.scss */
+.data-table.archive-img-table md-checkbox {
+  margin-left: 5px;
+}
+/* line 711, ../scss/settings/_custom.scss */
+.data-table.archive-img-table .row-check md-checkbox {
+  display: none;
+}
+/* line 716, ../scss/settings/_custom.scss */
+.data-table.archive-img-table .row-check:hover .user-img-holder {
+  display: none;
+}
+/* line 720, ../scss/settings/_custom.scss */
+.data-table.archive-img-table .row-check:hover md-checkbox {
+  display: inline-block;
+}
+/* line 727, ../scss/settings/_custom.scss */
+.data-table .sub-label {
+  position: relative;
+}
+/* line 730, ../scss/settings/_custom.scss */
+.data-table .sub-label .label-txt {
+  font-size: 7px;
+  position: absolute;
+  right: -3px;
+  color: #FF9501;
+  bottom: -4px;
+}
+/* line 739, ../scss/settings/_custom.scss */
+.data-table .row-check {
+  padding-bottom: 0;
+  padding-right: 0;
+  min-width: 30px;
+}
+/* line 744, ../scss/settings/_custom.scss */
+.data-table .row-check md-checkbox {
+  margin-bottom: 0;
+}
+/* line 756, ../scss/settings/_custom.scss */
+.data-table .inventory-text {
+  font-weight: 500;
+}
+
+/* line 761, ../scss/settings/_custom.scss */
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/*FormBase Start*/
+/* line 769, ../scss/settings/_custom.scss */
+.form-base {
+  /*******MD Chips In Form Base*******/
+  /****End******/
+}
+/* line 771, ../scss/settings/_custom.scss */
+.form-base .v-address .ico-tick {
+  margin-right: 10px;
+}
+/* line 775, ../scss/settings/_custom.scss */
+.form-base md-input-container {
+  margin: 20px 0;
+}
+/* line 776, ../scss/settings/_custom.scss */
+.form-base md-input-container.md-input-focused label:not(.md-no-float), .form-base md-input-container.md-input-has-placeholder label:not(.md-no-float), .form-base md-input-container.md-input-has-value label:not(.md-no-float) {
+  -webkit-transform: translate3d(0, 8px, 0) scale(0.92);
+  transform: translate3d(0, 8px, 0) scale(0.92);
+}
+/* line 781, ../scss/settings/_custom.scss */
+.form-base md-input-container input[type="text"] {
+  text-transform: capitalize;
+}
+/* line 783, ../scss/settings/_custom.scss */
+.form-base md-input-container input[type="text"].username {
+  text-transform: none;
+}
+/* line 790, ../scss/settings/_custom.scss */
+.form-base md-input-container.md-no-float.md-input-has-value label, .form-base md-input-container.md-no-float.md-input-focused label {
+  display: none;
+}
+/* line 798, ../scss/settings/_custom.scss */
+.form-base md-radio-group.md-default-theme.md-focused:not(:empty) .md-checked .md-container:before, .form-base md-radio-group.md-focused:not(:empty) .md-checked .md-container:before {
+  background-color: rgba(2, 185, 242, 0.26);
+}
+/* line 803, ../scss/settings/_custom.scss */
+.form-base md-radio-group md-radio-button {
+  margin: 0;
+  display: inline-block;
+  outline: 0;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+/* line 812, ../scss/settings/_custom.scss */
+.form-base md-radio-group md-radio-button .md-container {
+  margin-right: 5px;
+  width: 22px;
+  height: 22px;
+}
+/* line 818, ../scss/settings/_custom.scss */
+.form-base md-radio-group md-radio-button .md-off {
+  top: 0;
+  width: 22px;
+  height: 22px;
+  border-width: 1px;
+  border-color: #cccccc;
+  margin-right: 5px;
+}
+/* line 827, ../scss/settings/_custom.scss */
+.form-base md-radio-group md-radio-button:not([disabled]).md-primary .md-on {
+  background-color: #02b9f2;
+}
+/* line 831, ../scss/settings/_custom.scss */
+.form-base md-radio-group md-radio-button .md-on {
+  top: 1px;
+  left: 1px;
+  background-color: #02b9f2;
+}
+/* line 839, ../scss/settings/_custom.scss */
+.form-base md-radio-button.md-default-theme.md-checked .md-off,
+.form-base md-radio-button.md-checked .md-off {
+  border-color: #cccccc;
+}
+/* line 844, ../scss/settings/_custom.scss */
+.form-base md-radio-button.md-default-theme.md-checked .md-ink-ripple,
+.form-base md-radio-button.md-checked .md-ink-ripple {
+  color: #02b9f2;
+}
+/* line 850, ../scss/settings/_custom.scss */
+.form-base md-chips {
+  margin-bottom: 20px;
+  width: 100%;
+}
+/* line 853, ../scss/settings/_custom.scss */
+.form-base md-chips input {
+  font-size: 12px;
+}
+/* line 857, ../scss/settings/_custom.scss */
+.form-base md-chips .md-chips.md-focused {
+  box-shadow: 0 2px #FF9501;
+}
+/* line 861, ../scss/settings/_custom.scss */
+.form-base md-chips .md-chip {
+  border-radius: 3px;
+  background: #eaeaea;
+}
+/* line 871, ../scss/settings/_custom.scss */
+.form-base md-chips .md-chip md-chip-template {
+  font-weight: normal;
+}
+/* line 876, ../scss/settings/_custom.scss */
+.form-base md-chips .md-chip md-chip-template .md-chip-remove-container {
+  width: 28px;
+}
+/* line 885, ../scss/settings/_custom.scss */
+.form-base h3 {
+  font-size: 12px;
+  font-weight: normal;
+}
+/* line 893, ../scss/settings/_custom.scss */
+.form-base .default-style, .form-base input[type="text"],
+.form-base input[type="email"],
+.form-base md-select,
+.form-base textarea {
+  border-color: #D6E1E5;
+  height: 38px;
+  font-size: 14px;
+}
+/* line 908, ../scss/settings/_custom.scss */
+.form-base textarea {
+  margin-top: 5px;
+}
+/* line 912, ../scss/settings/_custom.scss */
+.form-base .form-right-section {
+  padding: 8px;
+}
+/* line 916, ../scss/settings/_custom.scss */
+.form-base .gap-right-hard {
+  margin-right: 20px;
+}
+/* line 920, ../scss/settings/_custom.scss */
+.form-base md-input-container {
+  padding: 0;
+  margin-top: 0;
+  /*@media screen and (min-width: 768px){
+      .msg-balloon{
+          background-color: $brand-danger;
+          border-radius: 5px;
+          padding: 7px 10px;
+          overflow: visible;
+          position:absolute;
+          top: 0;
+          right: -168px;
+          z-index: 2;
+          &:before{
+              content: "";
+              border-style: solid;
+              border-color: transparent  $brand-danger transparent transparent;
+              border-width: 10px;
+              position: absolute;
+              left: -16px;
+              top: 10px;
+          }
+          div{
+              color: $white;
+          }
+      }
+      }*/
+}
+/* line 924, ../scss/settings/_custom.scss */
+.form-base md-input-container label {
+  color: #949494;
+  font-size: 14px;
+}
+/* line 929, ../scss/settings/_custom.scss */
+.form-base md-input-container [ng-messages] {
+  min-height: 0;
+  height: 0;
+  overflow: hidden;
+}
+/* line 935, ../scss/settings/_custom.scss */
+.form-base md-input-container.md-input-invalid {
+  transition: all ease-in-out 1s;
+}
+/* line 938, ../scss/settings/_custom.scss */
+.form-base md-input-container.md-input-invalid .md-input {
+  border-color: #FF8162;
+}
+/* line 942, ../scss/settings/_custom.scss */
+.form-base md-input-container.md-input-invalid label {
+  color: #FF8162;
+}
+/* line 946, ../scss/settings/_custom.scss */
+.form-base md-input-container.md-input-invalid .msg-balloon {
+  min-height: 24px;
+  height: 24px;
+  transition: all ease-in-out 1s;
+}
+/* line 951, ../scss/settings/_custom.scss */
+.form-base md-input-container.md-input-invalid .msg-balloon div {
+  transition: all ease-in-out 1s;
+  color: #FF8162;
+}
+/* line 959, ../scss/settings/_custom.scss */
+.form-base md-input-container:not(.md-input-invalid).md-input-focused label {
+  color: #FF9501;
+}
+/* line 963, ../scss/settings/_custom.scss */
+.form-base md-input-container:not(.md-input-invalid).md-input-focused .md-input {
+  border-color: #FF9501;
+}
+@media screen and (max-width: 600px) {
+  /* line 969, ../scss/settings/_custom.scss */
+  .form-base md-input-container.gap-right-hard:not(.mob-right) {
+    margin-right: 0;
+  }
+}
+/* line 975, ../scss/settings/_custom.scss */
+.form-base md-input-container md-select md-select-value {
+  padding: 0 2px 2px;
+}
+/* line 978, ../scss/settings/_custom.scss */
+.form-base md-input-container md-select md-select-value span {
+  color: #949494;
+  font-size: 14px;
+}
+/* line 985, ../scss/settings/_custom.scss */
+.form-base md-input-container md-select:not([disabled]):focus md-select-value {
+  padding: 0 2px 2px;
+}
+/* line 990, ../scss/settings/_custom.scss */
+.form-base md-input-container md-select md-option:focus[selected] {
+  color: #FF9501;
+}
+/* line 994, ../scss/settings/_custom.scss */
+.form-base md-input-container md-select:not([disabled]):focus .md-select-value {
+  border-color: #FF9501;
+}
+/* line 1001, ../scss/settings/_custom.scss */
+.form-base md-input-container.md-input-has-value md-select md-select-value span {
+  color: #2a2a2a;
+}
+/* line 1006, ../scss/settings/_custom.scss */
+.form-base md-input-container.md-input-has-value [ng-messages] {
+  transition: all ease-in-out .5s;
+  min-height: 0;
+  height: 0;
+  overflow: hidden;
+}
+/* line 1013, ../scss/settings/_custom.scss */
+.form-base md-input-container.md-input-has-value.md-input-invalid [ng-messages] {
+  transition: all ease-in-out .5s;
+  min-height: 24px;
+  height: 24px;
+}
+@media screen and (max-width: 599px) {
+  /* line 1021, ../scss/settings/_custom.scss */
+  .form-base md-input-container .gap-right-sm {
+    margin-right: 20px;
+  }
+}
+/* line 1052, ../scss/settings/_custom.scss */
+.form-base md-switch.md-block {
+  flex: none;
+  margin: 0;
+  position: relative;
+  width: 50px;
+  display: block;
+  top: -5px;
+  left: 0;
+}
+/* line 1061, ../scss/settings/_custom.scss */
+.form-base md-switch.md-block .md-container {
+  width: 47px;
+}
+/* line 1064, ../scss/settings/_custom.scss */
+.form-base md-switch.md-block .md-container .md-bar {
+  border-radius: 50px;
+  height: 25px;
+  width: 56px;
+  top: 0;
+  background: #FFE9CF;
+}
+/* line 1072, ../scss/settings/_custom.scss */
+.form-base md-switch.md-block .md-container .md-thumb-container {
+  width: 33px;
+}
+/* line 1075, ../scss/settings/_custom.scss */
+.form-base md-switch.md-block .md-container .md-thumb-container .md-thumb {
+  height: 22px;
+  top: -1px;
+  width: 22px;
+}
+/* line 1083, ../scss/settings/_custom.scss */
+.form-base md-switch.md-block .md-label {
+  position: relative;
+  right: -19px;
+  top: -27px;
+  padding: 2px 5px;
+  color: #C47618;
+}
+/* line 1098, ../scss/settings/_custom.scss */
+.form-base md-switch.md-block.md-checked .md-label {
+  left: 0;
+  color: #fff;
+  padding-left: 9px;
+}
+/* line 1104, ../scss/settings/_custom.scss */
+.form-base md-switch.md-block.md-checked .md-bar {
+  background: #FF9501;
+}
+/* line 1108, ../scss/settings/_custom.scss */
+.form-base md-switch.md-block.md-checked .md-thumb {
+  background: #fff;
+}
+/* line 1113, ../scss/settings/_custom.scss */
+.form-base md-radio-button {
+  display: inline-block;
+}
+
+/* Map Switch BTn */
+/* line 1120, ../scss/settings/_custom.scss */
+.map-switch .map-switch-btn {
+  position: relative;
+  top: 11px;
+}
+/* line 1126, ../scss/settings/_custom.scss */
+.map-switch.form-base md-switch.md-block {
+  top: 0;
+}
+/* line 1130, ../scss/settings/_custom.scss */
+.map-switch.form-base md-switch.md-block .md-container .md-bar {
+  height: 14px;
+  width: 45px;
+  top: 5px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+/* line 1137, ../scss/settings/_custom.scss */
+.map-switch.form-base md-switch.md-block .md-container .md-thumb-container .md-thumb {
+  background: #FF9501 url("../../images/icons/set-g/ico-map-pin.svg") no-repeat center center/8px;
+  color: #FF9501;
+}
+/* line 1145, ../scss/settings/_custom.scss */
+.map-switch.form-base md-switch.md-block.md-checked .md-container .md-bar {
+  background-color: #fff;
+}
+/* line 1149, ../scss/settings/_custom.scss */
+.map-switch.form-base md-switch.md-block.md-checked .md-container .md-thumb-container .md-thumb {
+  background: #fff url("../../images/icons/set-g/ico-map-pin-o.svg") no-repeat center center/8px;
+  color: #fff;
+}
+/* line 1153, ../scss/settings/_custom.scss */
+.map-switch.form-base md-switch.md-block.md-checked .md-container .md-thumb-container .md-thumb:before {
+  background-color: rgba(255, 255, 255, 0.26);
+}
+/* line 1160, ../scss/settings/_custom.scss */
+.map-switch.form-base md-switch.md-block .md-thumb .md-ripple-container {
+  color: #FF9501;
+}
+/* line 1165, ../scss/settings/_custom.scss */
+.map-switch.form-base md-menu {
+  margin-left: 10px;
+  margin-top: -3px;
+}
+/* line 1169, ../scss/settings/_custom.scss */
+.map-switch.form-base md-menu .icon-down-head {
+  width: 15px;
+  margin-left: 5px;
+}
+/* line 1173, ../scss/settings/_custom.scss */
+.map-switch.form-base md-menu .icon-down-head .st0 {
+  fill: currentColor;
+}
+/* line 1181, ../scss/settings/_custom.scss */
+.map-switch.with-btn .map-switch-btn {
+  top: 4px;
+  right: 12px;
+}
+
+/* End */
+/* line 1189, ../scss/settings/_custom.scss */
+.date-filter {
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  z-index: 20;
+  background: #f2f2f2;
+}
+/* line 1196, ../scss/settings/_custom.scss */
+.date-filter md-icon {
+  width: 16px;
+}
+/* line 1200, ../scss/settings/_custom.scss */
+.date-filter .arrow-right {
+  transform: rotate(180deg);
+}
+
+/******Md Checkbox customization***************/
+/* line 1207, ../scss/settings/_custom.scss */
+md-checkbox.md-default-theme.md-checked .md-ink-ripple,
+md-checkbox.md-checked .md-ink-ripple {
+  color: #02b9f2;
+}
+
+/* line 1212, ../scss/settings/_custom.scss */
+md-checkbox .md-label {
+  display: inline-block;
+  margin-top: 4px;
+}
+
+/* line 1217, ../scss/settings/_custom.scss */
+md-checkbox.md-checked .md-icon,
+md-checkbox .md-icon {
+  width: 21px;
+  height: 21px;
+  background-color: transparent;
+  border: 1px solid #cccccc;
+}
+/* line 1224, ../scss/settings/_custom.scss */
+md-checkbox.md-checked .md-icon:after,
+md-checkbox .md-icon:after {
+  border-color: #02b9f2;
+}
+
+/* line 1229, ../scss/settings/_custom.scss */
+md-icon {
+  cursor: pointer;
+  outline: 0;
+}
+
+/* line 1236, ../scss/settings/_custom.scss */
+md-slider .md-track-ticks canvas {
+  display: none;
+}
+/* line 1241, ../scss/settings/_custom.scss */
+md-slider .md-track.md-track-fill {
+  background-color: #FF9501;
+}
+/* line 1247, ../scss/settings/_custom.scss */
+md-slider .md-thumb-container .md-thumb:after {
+  border-color: #FF9501;
+  background-color: #FF9501;
+}
+/* line 1253, ../scss/settings/_custom.scss */
+md-slider .md-thumb-container .md-sign {
+  background-color: #FF9501;
+}
+/* line 1256, ../scss/settings/_custom.scss */
+md-slider .md-thumb-container .md-sign:after {
+  border-top-color: #FF9501;
+}
+
+/******Md Checkbox customization End***************/
+/*************MD DATEPICKER Customization**********/
+/* line 1267, ../scss/settings/_custom.scss */
+.md-datepicker-open .md-datepicker-calendar-icon {
+  fill: #02b9f2;
+}
+
+/* line 1271, ../scss/settings/_custom.scss */
+.md-calendar-date.md-calendar-selected-date .md-calendar-date-selection-indicator,
+.md-calendar-date.md-focus.md-calendar-selected-date .md-calendar-date-selection-indicator {
+  background: #02b9f2;
+}
+
+/* line 1276, ../scss/settings/_custom.scss */
+.md-calendar-date.md-calendar-date-today .md-calendar-date-selection-indicator {
+  border-color: #02b9f2;
+}
+
+/* line 1280, ../scss/settings/_custom.scss */
+.md-default-theme .md-calendar-day-header,
+.md-calendar-day-header {
+  background: #fff;
+  color: #02b9f2;
+  border-top: 1px solid #dbdbdb;
+}
+
+/* line 1287, ../scss/settings/_custom.scss */
+.md-datepicker-calendar * {
+  box-shadow: none;
+}
+
+/* line 1291, ../scss/settings/_custom.scss */
+.md-datepicker-open .md-datepicker-input {
+  padding-top: 2px !important;
+}
+
+/*custom datepicker*/
+/* line 1298, ../scss/settings/_custom.scss */
+.datepicker-custom .md-datepicker-input-container {
+  width: 100%;
+  margin-left: 0;
+  padding-bottom: 0;
+  height: 38px;
+}
+/* line 1304, ../scss/settings/_custom.scss */
+.datepicker-custom .md-datepicker-input-container input {
+  border: none;
+  padding-top: 11px;
+}
+/* line 1310, ../scss/settings/_custom.scss */
+.datepicker-custom .md-datepicker-input-container.md-datepicker-focused,
+.datepicker-custom .md-datepicker-input-container.md-datepicker-focused {
+  border-color: #FF9501;
+}
+/* line 1315, ../scss/settings/_custom.scss */
+.datepicker-custom .md-datepicker-button {
+  position: absolute;
+  right: 0;
+  margin: 0;
+  z-index: 2;
+  width: 36px;
+  height: 36px;
+  top: 2px;
+  text-align: right;
+}
+/* line 1326, ../scss/settings/_custom.scss */
+.datepicker-custom .md-datepicker-triangle-button.md-button.md-icon-button {
+  display: none;
+}
+/* line 1330, ../scss/settings/_custom.scss */
+.datepicker-custom md-datepicker.md-default-theme,
+.datepicker-custom md-datepicker {
+  background: transparent;
+}
+
+/* line 1337, ../scss/settings/_custom.scss */
+md-datepicker[disabled] .md-datepicker-input-container {
+  border-bottom-color: #E0E0E0;
+}
+/* line 1342, ../scss/settings/_custom.scss */
+md-datepicker[disabled] .md-datepicker-button .md-datepicker-calendar-icon {
+  cursor: default;
+}
+/* line 1345, ../scss/settings/_custom.scss */
+md-datepicker[disabled] .md-datepicker-button .md-datepicker-calendar-icon svg path {
+  fill: #eaeaea;
+}
+
+/* line 1352, ../scss/settings/_custom.scss */
+md-select[disabled] {
+  border-bottom: 1px solid #E0E0E0;
+}
+/* line 1355, ../scss/settings/_custom.scss */
+md-select[disabled] .md-select-value {
+  background-size: 0;
+}
+/* line 1358, ../scss/settings/_custom.scss */
+md-select[disabled] .md-select-value .md-select-icon:after {
+  color: #eaeaea;
+}
+
+/********************END*****************************/
+/*Schedule list start */
+/* line 1369, ../scss/settings/_custom.scss */
+.schedule-list ul {
+  padding: 0;
+}
+/* line 1372, ../scss/settings/_custom.scss */
+.schedule-list ul li {
+  display: inline-block;
+}
+
+/*Schedule list start */
+/*form base end*/
+/* line 1382, ../scss/settings/_custom.scss */
+.add-field {
+  position: absolute;
+}
+
+/* line 1386, ../scss/settings/_custom.scss */
+.icon-round {
+  border: 1px solid #FF9501;
+  color: #FF9501;
+  cursor: pointer;
+  padding: 3px;
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  background-clip: padding-box;
+  /* stops bg color from leaking outside the border: */
+  position: relative;
+  text-align: center;
+  position: relative;
+  text-align: center;
+}
+/* line 1402, ../scss/settings/_custom.scss */
+.icon-round span {
+  line-height: 16px;
+}
+
+/* line 1407, ../scss/settings/_custom.scss */
+.close-btn {
+  margin-left: -6px;
+}
+/* line 1410, ../scss/settings/_custom.scss */
+.close-btn .icon-cross {
+  height: 15px;
+  width: 15px;
+  margin-right: 6px;
+  margin-top: -3px;
+}
+
+/*FormBase End*/
+/*Panels Basic Stying Start*/
+/* line 1422, ../scss/settings/_custom.scss */
+.panel-container {
+  border-radius: 3px;
+  border: 1px solid #f2f2f2;
+  /*Form BAse End*/
+}
+/* line 1426, ../scss/settings/_custom.scss */
+.panel-container .panel-head {
+  height: 48px;
+  min-height: 48px;
+}
+/* line 1430, ../scss/settings/_custom.scss */
+.panel-container .panel-head .md-toolbar-tools {
+  background-color: #f2f2f2;
+  color: #2a2a2a;
+  font-size: 14px;
+}
+/* line 1436, ../scss/settings/_custom.scss */
+.panel-container .panel-head .md-button.counter-rd-box {
+  background-color: #02b9f2;
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  min-height: 20px;
+  line-height: 20px;
+  font-size: 9px;
+  font-weight: 600;
+  box-shadow: none;
+  position: relative;
+}
+/* line 1448, ../scss/settings/_custom.scss */
+.panel-container .panel-head .md-button.counter-rd-box span {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin-top: 1px;
+}
+/* line 1457, ../scss/settings/_custom.scss */
+.panel-container .panel-head .md-button.counter-rd-box:not([disabled]):hover {
+  background: #02b9f2;
+  /* The Fallback */
+  background: rgba(2, 185, 242, 0.7);
+}
+/* line 1461, ../scss/settings/_custom.scss */
+.panel-container .panel-head .md-button.counter-rd-box:not([disabled]).md-focused {
+  background: #02b9f2;
+  /* The Fallback */
+  background: rgba(2, 185, 242, 0.9);
+}
+/* line 1470, ../scss/settings/_custom.scss */
+.panel-container .panel-content .md-list-item-text h3 {
+  line-height: 25px;
+}
+/* line 1481, ../scss/settings/_custom.scss */
+.panel-container .panel-content md-divider {
+  border-color: #f2f2f2;
+}
+/* line 1484, ../scss/settings/_custom.scss */
+.panel-container .panel-content md-divider:not(.hide-last):last-child {
+  display: block;
+}
+
+@media only screen and (max-width: 600px) {
+  /* line 1492, ../scss/settings/_custom.scss */
+  .small-btn {
+    min-width: 0;
+    width: auto;
+  }
+}
+
+/* line 1499, ../scss/settings/_custom.scss */
+.search-wrapper {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  height: 38px;
+}
+@media only screen and (max-width: 600px) {
+  /* line 1505, ../scss/settings/_custom.scss */
+  .search-wrapper.responsive {
+    top: 4px;
+    right: 5px;
+  }
+}
+/* line 1512, ../scss/settings/_custom.scss */
+.search-wrapper.gap-right {
+  margin-right: 15px;
+}
+/* line 1516, ../scss/settings/_custom.scss */
+.search-wrapper .icon-search-container {
+  float: right;
+  position: absolute;
+  right: 0;
+  height: 32px;
+  width: 32px;
+  transition: width 0.3s ease-out;
+  backface-visibility: hidden;
+  overflow: hidden;
+  margin: 6px 10px 0 0;
+}
+@media only screen and (max-width: 600px) {
+  /* line 1516, ../scss/settings/_custom.scss */
+  .search-wrapper .icon-search-container {
+    margin: 0;
+  }
+}
+/* line 1531, ../scss/settings/_custom.scss */
+.search-wrapper .icon-search-container.no-marg-top {
+  margin-top: 0;
+}
+/* line 1535, ../scss/settings/_custom.scss */
+.search-wrapper .icon-search-container.single-btn {
+  top: -20px;
+}
+/* line 1539, ../scss/settings/_custom.scss */
+.search-wrapper .icon-search-container.active {
+  width: 245px;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  background: #fff;
+  z-index: 5;
+}
+/* line 1546, ../scss/settings/_custom.scss */
+.search-wrapper .icon-search-container.active .search-close {
+  display: inline-block;
+}
+/* line 1550, ../scss/settings/_custom.scss */
+.search-wrapper .icon-search-container.active .search-input {
+  width: 182px;
+  font-size: 12px;
+  height: 32px;
+  padding: 0 5px;
+  transition: font-size 0.1s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+/* line 1558, ../scss/settings/_custom.scss */
+.search-wrapper .icon-search-container.active .search-symbol {
+  top: 6px;
+  height: 18px;
+  width: 18px;
+  margin-left: 8px;
+}
+/* line 1566, ../scss/settings/_custom.scss */
+.search-wrapper .icon-search-container .search-symbol {
+  position: absolute;
+  top: 0;
+  margin-left: 2px;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+/* line 1575, ../scss/settings/_custom.scss */
+.search-wrapper .icon-search-container .search-close {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 50%;
+  height: 16px;
+  width: 16px;
+  padding: 4px;
+  margin-right: 10px;
+  background: #cccccc;
+}
+/* line 1588, ../scss/settings/_custom.scss */
+.search-wrapper .icon-search-container .search-close:after {
+  content: "";
+  position: absolute;
+  right: -10px;
+  top: -7px;
+  height: 30px;
+  width: 10px;
+  background: #fff;
+}
+/* line 1599, ../scss/settings/_custom.scss */
+.search-wrapper .icon-search-container .search-close svg path {
+  fill: #fff;
+}
+/* line 1605, ../scss/settings/_custom.scss */
+.search-wrapper .icon-search-container .search-input {
+  position: absolute;
+  cursor: default;
+  left: 30px;
+  top: 0;
+  bottom: 0;
+  right: 20px;
+  width: 0;
+  padding: 5px;
+  border: none;
+  outline: none;
+  font-size: 0;
+  line-height: 20px;
+  background-color: rgba(255, 255, 255, 0);
+  transition: width 0.4s ease-out;
+}
+
+/** Table Menu DropDown popup**/
+/* line 1628, ../scss/settings/_custom.scss */
+.table-menu {
+  overflow: hidden;
+  border: 0;
+}
+/* line 1632, ../scss/settings/_custom.scss */
+.table-menu:after {
+  margin-right: 104.5px;
+  border-width: 10px;
+}
+/* line 1637, ../scss/settings/_custom.scss */
+.table-menu:before {
+  margin-right: 102.8px;
+  border-width: 11px;
+  border-bottom-color: rgba(207, 218, 222, 0.5);
+}
+/* line 1643, ../scss/settings/_custom.scss */
+.table-menu .custom-scroll {
+  overflow-y: auto;
+}
+/* line 1647, ../scss/settings/_custom.scss */
+.table-menu md-menu-item > * {
+  padding: 0;
+}
+/* line 1651, ../scss/settings/_custom.scss */
+.table-menu .menu-header {
+  padding: 3px 10px;
+}
+/* line 1654, ../scss/settings/_custom.scss */
+.table-menu .menu-header md-icon {
+  height: 18px;
+  width: 18px;
+  margin-top: -3px;
+}
+/* line 1660, ../scss/settings/_custom.scss */
+.table-menu .menu-header strong {
+  padding-left: 3px;
+}
+/* line 1664, ../scss/settings/_custom.scss */
+.table-menu .menu-header .md-button {
+  min-width: 60px;
+  height: 30px;
+  line-height: 30px;
+  min-height: 30px;
+  margin: 0;
+}
+/* line 1671, ../scss/settings/_custom.scss */
+.table-menu .menu-header .md-button span {
+  font-size: 12px;
+}
+/* line 1677, ../scss/settings/_custom.scss */
+.table-menu .menu-header .md-button span {
+  color: #fff;
+}
+/* line 1682, ../scss/settings/_custom.scss */
+.table-menu .menu-header .md-button:not([disabled]):hover {
+  background-color: #FF9501;
+}
+/* line 1687, ../scss/settings/_custom.scss */
+.table-menu .quotes-menu-list {
+  padding: 10px;
+  min-height: 38px;
+  height: 38px;
+}
+/* line 1692, ../scss/settings/_custom.scss */
+.table-menu .quotes-menu-list:after {
+  content: "";
+  background: url(../../images/icons/set-d/ico-arrow-right.svg) no-repeat;
+  height: 15px;
+  width: 30px;
+  background-size: 15px;
+  position: relative;
+  top: 12px;
+  right: -10px;
+  cursor: pointer;
+}
+/* line 1704, ../scss/settings/_custom.scss */
+.table-menu .quotes-menu-list .folder {
+  display: inline-block;
+  vertical-align: top;
+  width: 10%;
+  margin: 0;
+}
+/* line 1710, ../scss/settings/_custom.scss */
+.table-menu .quotes-menu-list .folder md-icon {
+  height: 12px;
+  width: 15px;
+}
+/* line 1714, ../scss/settings/_custom.scss */
+.table-menu .quotes-menu-list .folder md-icon.active {
+  width: 13px;
+}
+/* line 1718, ../scss/settings/_custom.scss */
+.table-menu .quotes-menu-list .folder md-icon.active svg path {
+  fill: #02b9f2;
+}
+/* line 1726, ../scss/settings/_custom.scss */
+.table-menu .quotes-menu-list .quote-txt {
+  display: inline-block;
+  margin: 0;
+  padding-left: 4px;
+}
+/* line 1731, ../scss/settings/_custom.scss */
+.table-menu .quotes-menu-list .quote-txt .quote-number {
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+/* line 1743, ../scss/settings/_custom.scss */
+.default-card-box, .assign-card {
+  padding: 10px 15px;
+  background-color: #f8f8f8;
+  -webkit-box-shadow: 2px 2px 0 #D2D2D2;
+  /*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+  box-shadow: 2px 2px 0 #D2D2D2;
+  /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+}
+/* line 1753, ../scss/settings/_custom.scss */
+.default-card-box .round-avatar svg, .assign-card .round-avatar svg {
+  border-radius: 100%;
+}
+/* line 1757, ../scss/settings/_custom.scss */
+.default-card-box .round-avatar.withback, .assign-card .round-avatar.withback {
+  width: 48px;
+  height: 36px;
+  margin-bottom: 13px;
+}
+/* line 1762, ../scss/settings/_custom.scss */
+.default-card-box .round-avatar.withback svg, .assign-card .round-avatar.withback svg {
+  background: #F4F1ED;
+  padding-top: 13px;
+}
+
+/* line 1770, ../scss/settings/_custom.scss */
+.cursor-point {
+  cursor: pointer;
+}
+
+/* line 1778, ../scss/settings/_custom.scss */
+#content md-toolbar .btn-primary, #content md-toolbar .table-menu .menu-header .md-button, .table-menu .menu-header #content md-toolbar .md-button,
+#content md-toolbar .btn-secondary,
+#content md-toolbar .muted-btns .md-button,
+.muted-btns #content md-toolbar .md-button,
+#content md-toolbar .btn-selected {
+  text-transform: capitalize;
+  height: 32px;
+  line-height: 30px;
+  min-height: 32px;
+  margin-left: 0;
+}
+
+/* line 1791, ../scss/settings/_custom.scss */
+.menu-btn {
+  line-height: 1;
+  min-height: 0;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 5px;
+  top: 1px;
+}
+/* line 1801, ../scss/settings/_custom.scss */
+.menu-btn:before {
+  content: "\2022 \2022 \2022";
+  cursor: pointer;
+  display: block;
+  font-size: 14px;
+  padding: 5px;
+  color: #cccccc;
+}
+
+/* line 1811, ../scss/settings/_custom.scss */
+.edit-action {
+  width: 42px;
+  min-width: 42px;
+  background: #fff;
+  border: 1px solid #cccccc;
+  border-bottom: 0;
+  border-radius: 0;
+}
+/* line 1819, ../scss/settings/_custom.scss */
+.edit-action:before {
+  border-bottom-color: #cccccc;
+  border-width: 5px;
+  margin-right: -1px;
+}
+/* line 1825, ../scss/settings/_custom.scss */
+.edit-action:after {
+  border-bottom-color: #f2f2f2;
+  top: -7;
+}
+/* line 1830, ../scss/settings/_custom.scss */
+.edit-action md-menu-item {
+  border-bottom: 1px solid #cccccc;
+  min-height: 32px;
+  height: 32px;
+}
+/* line 1835, ../scss/settings/_custom.scss */
+.edit-action md-menu-item .edit-button {
+  min-height: 0;
+  min-width: 0;
+}
+/* line 1840, ../scss/settings/_custom.scss */
+.edit-action md-menu-item md-icon {
+  height: 14px;
+  width: 14px;
+  padding: 0;
+  margin: 8px auto;
+}
+/* line 1847, ../scss/settings/_custom.scss */
+.edit-action md-menu-item md-icon svg path {
+  fill: #949494;
+}
+@media screen and (max-width: 960px) {
+  /* line 1811, ../scss/settings/_custom.scss */
+  .edit-action {
+    width: 42px;
+    min-width: 42px;
+  }
+}
+
+/* line 1862, ../scss/settings/_custom.scss */
+.social-dropdown {
+  min-height: 78px;
+  overflow: hidden;
+  border: 0;
+}
+/* line 1867, ../scss/settings/_custom.scss */
+.social-dropdown:before {
+  border-width: 10px;
+  margin-right: 25px;
+}
+/* line 1872, ../scss/settings/_custom.scss */
+.social-dropdown:after {
+  border-width: 9;
+  margin-right: 26.5px;
+}
+/* line 1877, ../scss/settings/_custom.scss */
+.social-dropdown md-menu-item {
+  height: auto;
+  padding: 0;
+}
+/* line 1881, ../scss/settings/_custom.scss */
+.social-dropdown md-menu-item .input-box {
+  position: relative;
+  padding: 10px;
+}
+/* line 1885, ../scss/settings/_custom.scss */
+.social-dropdown md-menu-item .input-box span {
+  display: inline-block;
+  margin-bottom: 2px;
+  width: 100%;
+}
+/* line 1893, ../scss/settings/_custom.scss */
+.social-dropdown md-menu-item .input-box input {
+  width: 72%;
+  margin-top: 5px;
+  border: 1px solid #dbdbdb;
+  height: 38px;
+  min-width: 0;
+  border-radius: 3px;
+  padding-left: 10px;
+}
+@media screen and (max-width: 959px) {
+  /* line 1893, ../scss/settings/_custom.scss */
+  .social-dropdown md-menu-item .input-box input {
+    width: 67%;
+  }
+}
+/* line 1907, ../scss/settings/_custom.scss */
+.social-dropdown md-menu-item .input-box .md-button {
+  position: relative;
+  min-width: 85px;
+  margin: 0;
+  margin-left: 10px;
+  background: #FF9501;
+}
+/* line 1914, ../scss/settings/_custom.scss */
+.social-dropdown md-menu-item .input-box .md-button span {
+  width: 100%;
+  color: #fff;
+}
+/* line 1921, ../scss/settings/_custom.scss */
+.social-dropdown md-menu-item .v-url {
+  margin-top: 7px;
+  font-style: italic;
+}
+@media only screen and (max-width: 600px) {
+  /* line 1928, ../scss/settings/_custom.scss */
+  .social-dropdown:before, .social-dropdown:after {
+    display: none;
+  }
+}
+
+/* Global Table Css For data Table*/
+/* line 1938, ../scss/settings/_custom.scss */
+.table-sort {
+  text-align: right;
+  height: 12px;
+  margin-top: 10px;
+}
+/* line 1943, ../scss/settings/_custom.scss */
+.table-sort md-icon {
+  height: 9px;
+  width: 9px;
+  margin: 0;
+  vertical-align: top;
+  margin-right: 2px;
+  margin-top: 2px;
+}
+/* line 1952, ../scss/settings/_custom.scss */
+.table-sort md-icon svg path {
+  fill: #949494;
+}
+/* line 1958, ../scss/settings/_custom.scss */
+.table-sort span {
+  cursor: pointer;
+}
+
+/* line 1965, ../scss/settings/_custom.scss */
+.table-responsive {
+  overflow-x: auto;
+}
+
+/* line 1977, ../scss/settings/_custom.scss */
+.md-button.md-icon-button.table-ico {
+  padding: 0;
+}
+/* line 1980, ../scss/settings/_custom.scss */
+.md-button.md-icon-button.table-ico md-icon {
+  height: 30px;
+  width: 30px;
+}
+
+/* line 1989, ../scss/settings/_custom.scss */
+.table-dropdown {
+  overflow: hidden;
+}
+/* line 1992, ../scss/settings/_custom.scss */
+.table-dropdown[width="3"] {
+  min-width: 155px;
+}
+/* line 1996, ../scss/settings/_custom.scss */
+.table-dropdown md-menu-item {
+  padding: 8px 16px 10px;
+  min-height: 0;
+  height: auto;
+}
+/* line 2001, ../scss/settings/_custom.scss */
+.table-dropdown md-menu-item md-checkbox {
+  line-height: 1;
+  padding: 0;
+}
+/* line 2005, ../scss/settings/_custom.scss */
+.table-dropdown md-menu-item md-checkbox .md-label {
+  padding-top: 6px;
+}
+
+/* line 2012, ../scss/settings/_custom.scss */
+.user-status {
+  display: inline-block;
+  position: relative;
+  margin-right: 5px;
+}
+/* line 2017, ../scss/settings/_custom.scss */
+.user-status md-icon {
+  height: 30px !important;
+  width: 30px !important;
+}
+/* line 2022, ../scss/settings/_custom.scss */
+.user-status .status-light {
+  display: inline-block;
+  position: absolute;
+  top: 1px;
+  right: 0px;
+  height: 7px;
+  width: 7px;
+  border-radius: 100%;
+}
+/* line 2033, ../scss/settings/_custom.scss */
+.user-status.available .status-light {
+  background: #39A82D;
+}
+/* line 2039, ../scss/settings/_custom.scss */
+.user-status.busy .status-light {
+  background: #F45151;
+}
+/* line 2045, ../scss/settings/_custom.scss */
+.user-status.away .status-light {
+  background: #FCB24F;
+}
+/* line 2051, ../scss/settings/_custom.scss */
+.user-status.not-available .status-light {
+  background: #cccccc;
+}
+
+/* line 2057, ../scss/settings/_custom.scss */
+.data-table {
+  min-width: 500px;
+  border: 1px solid #d6e1e5;
+  border-bottom: 0;
+  text-align: left;
+  width: 100%;
+  margin-top: 8px;
+  border-radius: 5px;
+  border-collapse: inherit;
+  overflow: hidden;
+}
+/* line 2068, ../scss/settings/_custom.scss */
+.data-table md-checkbox {
+  margin-bottom: 0;
+}
+/* line 2072, ../scss/settings/_custom.scss */
+.data-table.archived {
+  opacity: 0.6;
+}
+/* line 2076, ../scss/settings/_custom.scss */
+.data-table .archive-cell {
+  width: 30px;
+  padding-right: 0;
+}
+/* line 2081, ../scss/settings/_custom.scss */
+.data-table thead {
+  background: #d6e1e5;
+  border: none;
+  border-spacing: 0;
+  font-size: 14px;
+}
+/* line 2087, ../scss/settings/_custom.scss */
+.data-table thead th {
+  padding: 10px 15px;
+  font-size: 13px;
+  color: #333333;
+  font-weight: 500;
+  height: 40px;
+  white-space: nowrap;
+}
+/* line 2097, ../scss/settings/_custom.scss */
+.data-table td {
+  border-bottom: 1px solid #d6e1e5;
+  padding: 15px;
+  vertical-align: top;
+  line-height: 20px;
+}
+/* line 2108, ../scss/settings/_custom.scss */
+.data-table .sort-icon {
+  height: 12px;
+  width: 12px;
+  margin-left: 4px;
+  cursor: pointer;
+}
+/* line 2115, ../scss/settings/_custom.scss */
+.data-table .sort-icon svg path {
+  fill: #FF9501;
+}
+/* line 2121, ../scss/settings/_custom.scss */
+.data-table .selected-row, .data-table .draft-row {
+  background-color: #FFE9CF;
+}
+/* line 2128, ../scss/settings/_custom.scss */
+.data-table .draft-row td:last-child {
+  position: relative;
+}
+
+/*Schedule box /List*/
+/* line 2136, ../scss/settings/_custom.scss */
+.schedule-list {
+  background: #fff;
+  line-height: 1;
+  font-size: 11px;
+  margin-top: 8px;
+  min-width: 60%;
+}
+/* line 2143, ../scss/settings/_custom.scss */
+.schedule-list li {
+  padding: 6px 4px;
+  font-size: 10px;
+}
+/* line 2147, ../scss/settings/_custom.scss */
+.schedule-list li a {
+  padding-left: 0;
+  display: inline-block;
+  vertical-align: middle;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 162px;
+}
+/* line 2160, ../scss/settings/_custom.scss */
+.schedule-list.show-5 {
+  max-height: 155px !important;
+  overflow-y: auto;
+}
+/* line 2165, ../scss/settings/_custom.scss */
+.schedule-list.show-5:last-child a {
+  max-width: 48px;
+}
+/* line 2171, ../scss/settings/_custom.scss */
+.schedule-list hr {
+  border-color: #FFF;
+  opacity: 0.2;
+  color: #fff;
+  margin: 0;
+}
+
+/* line 2179, ../scss/settings/_custom.scss */
+.schedule-list > li {
+  border-bottom: 1px solid #E2E2E2;
+}
+/* line 2182, ../scss/settings/_custom.scss */
+.schedule-list > li:last-child {
+  border-bottom: 0;
+}
+
+/*Panels Basic Stying Start*/
+/* Right Side Bar */
+/* line 2191, ../scss/settings/_custom.scss */
+.md-sidenav-right,
+.md-sidenav-right md-content {
+  background-color: #f2f2f2;
+}
+
+/* line 2196, ../scss/settings/_custom.scss */
+.md-sidenav-right .bottom-section {
+  background-color: #eaeaea;
+  text-align: center;
+}
+
+/* line 2201, ../scss/settings/_custom.scss */
+.md-sidenav-right .btn-default {
+  background-color: #f2f2f2;
+}
+
+/* line 2205, ../scss/settings/_custom.scss */
+.md-sidenav-right.inside-container {
+  top: 64px;
+  bottom: 65px;
+}
+@media screen and (max-width: 768px) {
+  /* line 2205, ../scss/settings/_custom.scss */
+  .md-sidenav-right.inside-container {
+    bottom: 46px;
+  }
+}
+
+/*Swipe Start*/
+/* line 2216, ../scss/settings/_custom.scss */
+.basic-swipe, .swipe-right, .swipe-left {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 11px;
+  display: flex;
+  align-items: center;
+}
+
+/* line 2226, ../scss/settings/_custom.scss */
+.swipe-right {
+  left: -200px;
+  max-width: 155px;
+  background: #ABD036;
+  transition: all ease-in-out .5s;
+}
+/* line 2234, ../scss/settings/_custom.scss */
+.swipe-right md-icon {
+  margin: 0px 5px auto 20px;
+  height: 42px;
+  width: 20px;
+}
+/* line 2240, ../scss/settings/_custom.scss */
+.swipe-right span {
+  color: #fff;
+  font-size: 12px;
+}
+/* line 2245, ../scss/settings/_custom.scss */
+.swipe-right.right-open {
+  left: -16px;
+}
+
+/* line 2250, ../scss/settings/_custom.scss */
+.swipe-left {
+  right: -200px;
+  max-width: 110px;
+  background: #FF8162;
+  transition: all ease-in-out .5s;
+}
+/* line 2258, ../scss/settings/_custom.scss */
+.swipe-left md-icon {
+  margin: 0 0 auto 0;
+  height: 25px;
+  width: 25px;
+}
+/* line 2264, ../scss/settings/_custom.scss */
+.swipe-left span {
+  color: #fff;
+  font-size: 12px;
+}
+/* line 2269, ../scss/settings/_custom.scss */
+.swipe-left.left-open {
+  right: -16px;
+}
+/* line 2273, ../scss/settings/_custom.scss */
+.swipe-left.left-open-td {
+  right: 0;
+  max-width: 200px;
+  width: 120px;
+}
+/* line 2278, ../scss/settings/_custom.scss */
+.swipe-left.left-open-td md-icon {
+  margin: auto 5px;
+}
+
+/*Swipe End*/
+/*tick Mark start*/
+/* line 2289, ../scss/settings/_custom.scss */
+.tick-mark:after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 5px;
+  height: 2px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  left: 5px;
+  transform: rotate(-45deg);
+  top: 6px;
+}
+/* line 2302, ../scss/settings/_custom.scss */
+.tick-mark:before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #FF9501;
+  left: 2px;
+  top: 2px;
+  border: 1px solid #FF9501;
+}
+/* line 2314, ../scss/settings/_custom.scss */
+.tick-mark.white-tick {
+  width: 20px;
+  height: 19px;
+  display: inline-block;
+  margin-left: 15px;
+}
+/* line 2320, ../scss/settings/_custom.scss */
+.tick-mark.white-tick:after {
+  width: 9px;
+  height: 4px;
+  border-width: 2px;
+  border-color: #FF9501;
+  top: 12px;
+  left: 7px;
+}
+/* line 2329, ../scss/settings/_custom.scss */
+.tick-mark.white-tick:before {
+  width: 19px;
+  height: 19px;
+  top: 5px;
+  border: 1px solid #FF9501;
+  background-color: #fff;
+}
+
+/*tick mark end*/
+/*Tabs Start*/
+/* line 2342, ../scss/settings/_custom.scss */
+md-tabs-wrapper md-prev-button,
+md-tabs-wrapper md-next-button {
+  background: #fff;
+}
+
+/* line 2347, ../scss/settings/_custom.scss */
+md-tabs-wrapper md-next-button:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: -10px;
+  background: #fff;
+  width: 16px;
+}
+
+/* line 2357, ../scss/settings/_custom.scss */
+md-tabs .md-tab.md-focused {
+  background: transparent;
+}
+
+/* line 2361, ../scss/settings/_custom.scss */
+.common-tabs:not(.no-style):not(.item-chips):not(.item-chipset):not(.product-img-list):not(.days):not(.search-list) {
+  margin-top: 33px;
+}
+/* line 2364, ../scss/settings/_custom.scss */
+.common-tabs:not(.no-style):not(.item-chips):not(.item-chipset):not(.product-img-list):not(.days):not(.search-list) md-pagination-wrapper {
+  white-space: nowrap;
+  border-radius: 5px;
+  background-color: #FF9501;
+  border: 1px solid #FF9501;
+  overflow: hidden;
+  overflow-x: auto;
+  height: 31px;
+}
+/* line 2374, ../scss/settings/_custom.scss */
+.common-tabs:not(.no-style):not(.item-chips):not(.item-chipset):not(.product-img-list):not(.days):not(.search-list) .md-tab {
+  background-color: #FF9501;
+  padding: 3px 20px;
+  font-size: 12px;
+  color: #fff;
+  border-left: 1px solid #fff;
+  text-transform: capitalize;
+  margin-left: -1px;
+}
+/* line 2382, ../scss/settings/_custom.scss */
+.common-tabs:not(.no-style):not(.item-chips):not(.item-chipset):not(.product-img-list):not(.days):not(.search-list) .md-tab:first-child {
+  border-left: none;
+}
+/* line 2386, ../scss/settings/_custom.scss */
+.common-tabs:not(.no-style):not(.item-chips):not(.item-chipset):not(.product-img-list):not(.days):not(.search-list) .md-tab.md-active {
+  background-color: #fff;
+  color: #2a2a2a;
+}
+
+/* line 2393, ../scss/settings/_custom.scss */
+.image-tabs-wrapper {
+  background-color: #f2f2f2;
+  border-top: 1px solid #dbdbdb;
+}
+/* line 2397, ../scss/settings/_custom.scss */
+.image-tabs-wrapper.bottom-bar:after {
+  content: "";
+  background-color: #eaeaea;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 13px;
+  width: 100%;
+  z-index: 0;
+  border-top: 1px solid #dbdbdb;
+}
+/* line 2410, ../scss/settings/_custom.scss */
+.image-tabs-wrapper.white:after,
+.image-tabs-wrapper.white .extra-fill {
+  background-color: #fff;
+}
+
+/* line 2417, ../scss/settings/_custom.scss */
+.image-tabs {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  z-index: 1;
+  -webkit-appearance: none;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow: -moz-scrollbars-none;
+  overflow-y: hidden;
+}
+/* line 2418, ../scss/settings/_custom.scss */
+.image-tabs::-webkit-scrollbar {
+  display: none;
+}
+/* line 2433, ../scss/settings/_custom.scss */
+.image-tabs.child {
+  white-space: normal;
+  padding: 15px 0;
+}
+/* line 2438, ../scss/settings/_custom.scss */
+.image-tabs .bottom-border {
+  border-bottom: 1px solid #dbdbdb;
+}
+/* line 2442, ../scss/settings/_custom.scss */
+.image-tabs li {
+  display: inline-block;
+  text-align: center;
+  padding: 10px 20px;
+  min-width: 100px;
+  cursor: pointer;
+}
+/* line 2449, ../scss/settings/_custom.scss */
+.image-tabs li .img-tab-container {
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+  width: 98px;
+  height: 90px;
+  margin-bottom: 10px;
+  position: relative;
+}
+/* line 2458, ../scss/settings/_custom.scss */
+.image-tabs li .img-tab-container md-icon {
+  min-height: 60px;
+  width: 100%;
+  padding: 14px 0;
+}
+/* line 2464, ../scss/settings/_custom.scss */
+.image-tabs li .img-tab-container .selection-counter {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  display: none;
+}
+/* line 2475, ../scss/settings/_custom.scss */
+.image-tabs li.change-make .img-tab-container {
+  border-color: #949494;
+}
+/* line 2478, ../scss/settings/_custom.scss */
+.image-tabs li.change-make .img-tab-container .selection-counter {
+  background-color: #949494;
+  display: inline-block;
+}
+/* line 2486, ../scss/settings/_custom.scss */
+.image-tabs.border-between li {
+  border-left: 1px solid #dbdbdb;
+}
+/* line 2489, ../scss/settings/_custom.scss */
+.image-tabs.border-between li:last-child {
+  border-right: 1px solid #dbdbdb;
+}
+/* line 2494, ../scss/settings/_custom.scss */
+.image-tabs.outside li {
+  padding: 10px;
+}
+/* line 2497, ../scss/settings/_custom.scss */
+.image-tabs.outside li.selection .img-tab-container {
+  border-color: #FF9501;
+}
+
+/* line 2503, ../scss/settings/_custom.scss */
+.extra-fill {
+  height: 13px;
+  background-color: #eaeaea;
+}
+
+/* line 2508, ../scss/settings/_custom.scss */
+.product-tab-content,
+.product-tab-content1,
+.product-tab-content2,
+.product-tab-content3 {
+  opacity: 0;
+  left: -9999px;
+  height: 0;
+  position: relative;
+  overflow: hidden;
+}
+/* line 2519, ../scss/settings/_custom.scss */
+.product-tab-content .item-quantity-box md-icon,
+.product-tab-content1 .item-quantity-box md-icon,
+.product-tab-content2 .item-quantity-box md-icon,
+.product-tab-content3 .item-quantity-box md-icon {
+  width: 20px;
+  height: 20px;
+}
+/* line 2525, ../scss/settings/_custom.scss */
+.product-tab-content.active,
+.product-tab-content1.active,
+.product-tab-content2.active,
+.product-tab-content3.active {
+  opacity: 1;
+  height: auto;
+  left: 0;
+}
+
+/*Tabs End*/
+/*Page edit Default-style*/
+/* line 2537, ../scss/settings/_custom.scss */
+.svg-primary svg path {
+  fill: #FF9501;
+}
+
+/* line 2544, ../scss/settings/_custom.scss */
+.edit-page .page-edit-plus {
+  margin-left: 9px;
+}
+/* line 2547, ../scss/settings/_custom.scss */
+.edit-page .page-edit-plus * {
+  color: #FF9501;
+  fill: currentcolor;
+}
+@media screen and (min-width: 1300px) {
+  /* line 2555, ../scss/settings/_custom.scss */
+  .edit-page .page-edit-options:not(.no-move) {
+    margin-right: -45px;
+  }
+}
+/* line 2560, ../scss/settings/_custom.scss */
+.edit-page .page-edit-options .svg-base {
+  margin: 0;
+}
+/* line 2564, ../scss/settings/_custom.scss */
+.edit-page .page-edit-options .svg-base.page-edit-btn * {
+  color: #ABD036;
+  fill: currentcolor;
+}
+/* line 2571, ../scss/settings/_custom.scss */
+.edit-page .page-edit-options .svg-base.page-edit-remove * {
+  color: #FF8162;
+  fill: currentcolor;
+}
+
+/* Assign Card Csutom Css */
+/* line 2581, ../scss/settings/_custom.scss */
+.assign-card {
+  padding: 18px;
+  width: 100%;
+}
+/* line 2588, ../scss/settings/_custom.scss */
+.assign-card li .card-name {
+  min-width: 150px;
+  display: inline-block;
+  margin-top: 5px;
+}
+/* line 2597, ../scss/settings/_custom.scss */
+.assign-card .card-actions {
+  text-align: right;
+}
+/* line 2600, ../scss/settings/_custom.scss */
+.assign-card .card-actions md-icon {
+  margin-right: 18px;
+  height: 20px;
+  width: 20px;
+}
+/* line 2605, ../scss/settings/_custom.scss */
+.assign-card .card-actions md-icon:last-child {
+  margin-right: 10px;
+}
+
+/*End*/
+/****Custom Select*********/
+/* line 2615, ../scss/settings/_custom.scss */
+.custom-select {
+  padding: 5px 8px;
+  position: relative;
+  width: 100%;
+  border: none;
+  box-shadow: none;
+  background-color: transparent;
+  background-image: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  height: 30px;
+  padding-bottom: 0;
+  padding-left: 3px;
+  padding-right: 15px;
+  color: #949494;
+}
+/* line 2633, ../scss/settings/_custom.scss */
+.custom-select:focus {
+  outline: none;
+  border-color: #FF9501;
+  border-width: 2px;
+}
+
+/* ************************************************** */
+/* Summery-widget css */
+/* line 2643, ../scss/settings/_custom.scss */
+.summery-widget {
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #f2f2f2;
+}
+/* line 2648, ../scss/settings/_custom.scss */
+.summery-widget .custom-select {
+  border-bottom: 0;
+  padding: 0;
+  font-size: 14px;
+  height: 22px;
+}
+/* line 2655, ../scss/settings/_custom.scss */
+.summery-widget h3 {
+  font-weight: normal;
+  margin: 0;
+  display: inline-block;
+}
+/* line 2666, ../scss/settings/_custom.scss */
+.summery-widget .data-list li {
+  border-bottom: 1px solid #cccccc;
+  padding: 10px 0 15px;
+}
+/* line 2670, ../scss/settings/_custom.scss */
+.summery-widget .data-list li .stats-text {
+  color: #02b9f2;
+  font-size: 18px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+/* line 2678, ../scss/settings/_custom.scss */
+.summery-widget .data-list li:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* End */
+/* Comman Border Start*/
+/* line 2690, ../scss/settings/_custom.scss */
+.border-default {
+  border: 1px solid #f2f2f2;
+  border-radius: 5px;
+}
+
+/* Comman Border End*/
+/* Customized md tabs structure start */
+/* line 2701, ../scss/settings/_custom.scss */
+.customer-detail-tabs md-content.md-padding, .custom-ng-tabs md-content.md-padding {
+  padding-bottom: 0;
+}
+/* line 2705, ../scss/settings/_custom.scss */
+.customer-detail-tabs md-content label, .custom-ng-tabs md-content label {
+  padding-right: 35px;
+}
+/* line 2709, ../scss/settings/_custom.scss */
+.customer-detail-tabs md-content > h3, .custom-ng-tabs md-content > h3 {
+  margin-bottom: 8px;
+  font-weight: normal;
+}
+/* line 2717, ../scss/settings/_custom.scss */
+.customer-detail-tabs md-ink-bar, .custom-ng-tabs md-ink-bar {
+  display: none;
+}
+/* line 2751, ../scss/settings/_custom.scss */
+.customer-detail-tabs .md-tab, .custom-ng-tabs .md-tab {
+  color: #FF9501;
+}
+/* line 2755, ../scss/settings/_custom.scss */
+.customer-detail-tabs .md-tab.md-active, .custom-ng-tabs .md-tab.md-active {
+  color: #000;
+}
+/* line 2759, ../scss/settings/_custom.scss */
+.customer-detail-tabs[md-border-bottom] md-tabs-wrapper, .custom-ng-tabs[md-border-bottom] md-tabs-wrapper {
+  z-index: 11;
+}
+/* line 2763, ../scss/settings/_custom.scss */
+.customer-detail-tabs md-tab-item, .custom-ng-tabs md-tab-item {
+  padding-top: 0;
+  padding-bottom: 0;
+  text-transform: capitalize;
+}
+/* line 2768, ../scss/settings/_custom.scss */
+.customer-detail-tabs md-tab-item span, .custom-ng-tabs md-tab-item span {
+  font-weight: normal;
+  font-size: 12px;
+}
+/* line 2774, ../scss/settings/_custom.scss */
+.customer-detail-tabs md-tabs-canvas, .customer-detail-tabs md-pagination-wrapper, .custom-ng-tabs md-tabs-canvas, .custom-ng-tabs md-pagination-wrapper {
+  height: 27px;
+}
+/* line 2777, ../scss/settings/_custom.scss */
+.customer-detail-tabs md-tabs-canvas md-tab-item, .customer-detail-tabs md-pagination-wrapper md-tab-item, .custom-ng-tabs md-tabs-canvas md-tab-item, .custom-ng-tabs md-pagination-wrapper md-tab-item {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 2787, ../scss/settings/_custom.scss */
+.customer-detail-tabs md-tabs-wrapper md-tabs-canvas md-pagination-wrapper md-tab-item, .custom-ng-tabs md-tabs-wrapper md-tabs-canvas md-pagination-wrapper md-tab-item {
+  overflow: visible;
+}
+/* line 2790, ../scss/settings/_custom.scss */
+.customer-detail-tabs md-tabs-wrapper md-tabs-canvas md-pagination-wrapper md-tab-item.md-active, .custom-ng-tabs md-tabs-wrapper md-tabs-canvas md-pagination-wrapper md-tab-item.md-active {
+  position: relative;
+}
+/* line 2793, ../scss/settings/_custom.scss */
+.customer-detail-tabs md-tabs-wrapper md-tabs-canvas md-pagination-wrapper md-tab-item.md-active:after, .customer-detail-tabs md-tabs-wrapper md-tabs-canvas md-pagination-wrapper md-tab-item.md-active:before, .custom-ng-tabs md-tabs-wrapper md-tabs-canvas md-pagination-wrapper md-tab-item.md-active:after, .custom-ng-tabs md-tabs-wrapper md-tabs-canvas md-pagination-wrapper md-tab-item.md-active:before {
+  top: 27px;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+/* line 2804, ../scss/settings/_custom.scss */
+.customer-detail-tabs md-tabs-wrapper md-tabs-canvas md-pagination-wrapper md-tab-item.md-active:after, .custom-ng-tabs md-tabs-wrapper md-tabs-canvas md-pagination-wrapper md-tab-item.md-active:after {
+  border-color: rgba(255, 255, 255, 0);
+  border-top-color: #FFFFFF;
+  border-width: 7px;
+  margin-left: -6px;
+}
+/* line 2811, ../scss/settings/_custom.scss */
+.customer-detail-tabs md-tabs-wrapper md-tabs-canvas md-pagination-wrapper md-tab-item.md-active:before, .custom-ng-tabs md-tabs-wrapper md-tabs-canvas md-pagination-wrapper md-tab-item.md-active:before {
+  border-color: rgba(204, 204, 204, 0);
+  border-top-color: #CCCCCC;
+  border-width: 8px;
+  margin-left: -7px;
+}
+/* line 2824, ../scss/settings/_custom.scss */
+.customer-detail-tabs md-tabs-content-wrapper md-tab-content, .custom-ng-tabs md-tabs-content-wrapper md-tab-content {
+  transition: -webkit-transform 0.8s cubic-bezier(0.35, 0, 0.25, 1);
+  transition: transform 0.8s cubic-bezier(0.35, 0, 0.25, 1);
+}
+
+/* line 2831, ../scss/settings/_custom.scss */
+.tabsdemoDynamicHeight md-content {
+  background-color: transparent !important;
+}
+
+/* line 2835, ../scss/settings/_custom.scss */
+.tabsdemoDynamicHeight md-content md-tabs {
+  background: #f6f6f6;
+  border: 1px solid #e1e1e1;
+}
+
+/* line 2840, ../scss/settings/_custom.scss */
+.tabsdemoDynamicHeight md-content md-tabs md-tabs-wrapper {
+  background: white;
+}
+
+/* line 2844, ../scss/settings/_custom.scss */
+.tabsdemoDynamicHeight md-content h1:first-child {
+  margin-top: 0;
+}
+
+/* line 2848, ../scss/settings/_custom.scss */
+md-tabs-canvas {
+  overflow: visible;
+}
+/* line 2851, ../scss/settings/_custom.scss */
+md-tabs-canvas md-tab-item {
+  overflow: visible;
+}
+
+/* Customized md tabs structure end */
+/*Accordion Default Style Start*/
+/* line 2863, ../scss/settings/_custom.scss */
+.accordion .item .content {
+  padding: 0;
+  margin: 0;
+  transition: all 0.5s ease;
+  overflow: hidden;
+}
+/* line 2873, ../scss/settings/_custom.scss */
+.accordion li.active h2 md-icon.arrow {
+  transform: rotate(90deg);
+  transition: 0.5s all;
+}
+
+/* line 2882, ../scss/settings/_custom.scss */
+.accordionN {
+  max-width: 560px;
+  margin: 0 auto 100px;
+  border-top: 1px solid #d9e5e8;
+}
+/* line 2887, ../scss/settings/_custom.scss */
+.accordionN li {
+  border-bottom: 1px solid #d9e5e8;
+  position: relative;
+}
+/* line 2891, ../scss/settings/_custom.scss */
+.accordionN li .accordionN-section-content {
+  display: none;
+  padding: 10px 25px 30px;
+  color: #6b97a4;
+}
+/* line 2898, ../scss/settings/_custom.scss */
+.accordionN a {
+  width: 100%;
+  display: block;
+  cursor: pointer;
+  font-weight: 600;
+  line-height: 3;
+  font-size: 14px;
+  font-size: 0.875rem;
+  text-indent: 15px;
+  user-select: none;
+}
+/* line 2910, ../scss/settings/_custom.scss */
+.accordionN a:after {
+  width: 8px;
+  height: 8px;
+  border-right: 1px solid #4a6e78;
+  border-bottom: 1px solid #4a6e78;
+  position: absolute;
+  right: 10px;
+  content: " ";
+  top: 17px;
+  transform: rotate(-45deg);
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* line 2925, ../scss/settings/_custom.scss */
+.accordionN a.active:after {
+  transform: rotate(45deg);
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* line 2932, ../scss/settings/_custom.scss */
+.accordionN .accordionN-section-content {
+  font-size: 13px;
+  font-size: 0.8125rem;
+  line-height: 2;
+  padding: 10px;
+}
+
+/* line 2941, ../scss/settings/_custom.scss */
+.ui-accordion .arrow {
+  position: absolute;
+  margin: 0;
+  width: 15px;
+  height: 15px;
+  top: 16px;
+  right: 16px;
+  transform: rotate(-90deg);
+  transition: 0.5s all;
+}
+/* line 2951, ../scss/settings/_custom.scss */
+.ui-accordion .arrow svg path {
+  fill: #FF9501;
+}
+/* line 2955, ../scss/settings/_custom.scss */
+.ui-accordion .arrow.open {
+  transform: rotate(90deg);
+  transition: 0.5s all;
+}
+/* line 2960, ../scss/settings/_custom.scss */
+.ui-accordion .panel-group {
+  border: 1px solid #d6e1e5;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-clip: padding-box;
+  /* stops bg color from leaking outside the border: */
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+/* line 2965, ../scss/settings/_custom.scss */
+.ui-accordion .panel-group .panel {
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  border-color: #fff;
+}
+/* line 2969, ../scss/settings/_custom.scss */
+.ui-accordion .panel-group .panel .panel-heading {
+  background-color: #f9f9f9;
+  padding: 0;
+  border-radius: 0;
+}
+/* line 2975, ../scss/settings/_custom.scss */
+.ui-accordion .panel-group .panel.panel-open .panel-heading {
+  background: #fff;
+}
+/* line 2980, ../scss/settings/_custom.scss */
+.ui-accordion .panel-group .panel + .panel {
+  margin-top: 0;
+}
+/* line 2984, ../scss/settings/_custom.scss */
+.ui-accordion .panel-group .panel-title {
+  margin: 0;
+}
+/* line 2986, ../scss/settings/_custom.scss */
+.ui-accordion .panel-group .panel-title > a {
+  display: block;
+  padding: 16px;
+  outline: none;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  position: relative;
+  color: #333333;
+  border-bottom: 1px solid #f2f2f2;
+}
+/* line 2998, ../scss/settings/_custom.scss */
+.ui-accordion .panel-group .panel-body {
+  padding: 0;
+}
+/* line 3002, ../scss/settings/_custom.scss */
+.ui-accordion .panel-default > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #f2f2f2;
+}
+/* line 3005, ../scss/settings/_custom.scss */
+.ui-accordion .panel-group .panel-title > a {
+  min-height: 50px;
+}
+
+/*Accordion Default Style End*/
+/*search button start*/
+/* line 3016, ../scss/settings/_custom.scss */
+.search .md-icon-button {
+  margin-right: 7px;
+}
+
+/*search button end*/
+/*Radio Button Style Start*/
+/* line 3028, ../scss/settings/_custom.scss */
+md-radio-button:not([disabled]).md-checked.md-primary .md-off {
+  border-color: #dbdbdb;
+}
+/* line 3033, ../scss/settings/_custom.scss */
+md-radio-button:not([disabled]).md-checked .md-on {
+  background-color: #02b9f2;
+}
+
+/*****Sales Agent Box  Style ****/
+/* line 3041, ../scss/settings/_custom.scss */
+.customer-name {
+  margin-bottom: 20px;
+}
+/* line 3044, ../scss/settings/_custom.scss */
+.customer-name img {
+  height: 80px;
+  width: 80px;
+  vertical-align: top;
+}
+/* line 3050, ../scss/settings/_custom.scss */
+.customer-name .box {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 25px;
+  margin-left: 8px;
+  max-width: 270px;
+  width: 100%;
+}
+/* line 3058, ../scss/settings/_custom.scss */
+.customer-name .box md-input-container {
+  width: 100%;
+}
+
+/*****Sales Agent Box  Style END ****/
+/**Color Chooser Md-checkbox***/
+/* line 3068, ../scss/settings/_custom.scss */
+.color-chooser {
+  width: 100%;
+  border-bottom: 1px solid #d6e1e5;
+  padding-bottom: 22px;
+}
+/* line 3073, ../scss/settings/_custom.scss */
+.color-chooser li {
+  margin-right: 10px;
+  margin-top: 5px;
+  display: inline-block;
+}
+/* line 3079, ../scss/settings/_custom.scss */
+.color-chooser md-checkbox {
+  margin: 0;
+  width: 42px;
+  height: 30px;
+  min-width: 42px;
+  min-height: 30px;
+}
+/* line 3086, ../scss/settings/_custom.scss */
+.color-chooser md-checkbox .md-label {
+  display: none;
+}
+/* line 3090, ../scss/settings/_custom.scss */
+.color-chooser md-checkbox .md-container {
+  width: 42px;
+  height: 30px;
+  min-width: 42px;
+  min-height: 30px;
+}
+/* line 3096, ../scss/settings/_custom.scss */
+.color-chooser md-checkbox .md-container .md-icon {
+  width: 42px;
+  height: 30px;
+}
+/* line 3100, ../scss/settings/_custom.scss */
+.color-chooser md-checkbox .md-container .md-icon:after {
+  border-color: #fff;
+  left: 18px;
+  top: 6px;
+  border-width: 1;
+}
+/* line 3108, ../scss/settings/_custom.scss */
+.color-chooser md-checkbox .md-container .md-ripple-container {
+  left: -8px;
+  top: -15px;
+  right: -8px;
+  bottom: -12px;
+}
+/* line 3116, ../scss/settings/_custom.scss */
+.color-chooser md-checkbox.pink .md-icon {
+  background-color: #f266ba;
+  border: 1px solid #f266ba;
+}
+/* line 3121, ../scss/settings/_custom.scss */
+.color-chooser md-checkbox.blue .md-icon {
+  background-color: #005bc3;
+  border: 1px solid #005bc3;
+}
+/* line 3126, ../scss/settings/_custom.scss */
+.color-chooser md-checkbox.red .md-icon {
+  background-color: #ff2e4e;
+  border: 1px solid #ff2e4e;
+}
+/* line 3131, ../scss/settings/_custom.scss */
+.color-chooser md-checkbox.green .md-icon {
+  background-color: #a8d900;
+  border: 1px solid #a8d900;
+}
+/* line 3136, ../scss/settings/_custom.scss */
+.color-chooser md-checkbox.orange .md-icon {
+  background-color: #ff6f38;
+  border: 1px solid #ff6f38;
+}
+/* line 3141, ../scss/settings/_custom.scss */
+.color-chooser md-checkbox.sky-blue .md-icon {
+  background-color: #5b9fff;
+  border: 1px solid #5b9fff;
+}
+/* line 3146, ../scss/settings/_custom.scss */
+.color-chooser md-checkbox.light-green .md-icon {
+  background-color: #d4ff85;
+  border: 1px solid #d4ff85;
+}
+/* line 3151, ../scss/settings/_custom.scss */
+.color-chooser md-checkbox.skin .md-icon {
+  background-color: #ffd285;
+  border: 1px solid #ffd285;
+}
+
+/* line 3159, ../scss/settings/_custom.scss */
+.color-palatte.pink {
+  background-color: #f266ba;
+}
+/* line 3163, ../scss/settings/_custom.scss */
+.color-palatte.blue {
+  background-color: #005bc3;
+}
+/* line 3167, ../scss/settings/_custom.scss */
+.color-palatte.red {
+  background-color: #ff2e4e;
+}
+/* line 3171, ../scss/settings/_custom.scss */
+.color-palatte.orange {
+  background-color: #ff6f38;
+}
+/* line 3175, ../scss/settings/_custom.scss */
+.color-palatte.sky-blue {
+  background-color: #5B9FFF;
+}
+/* line 3179, ../scss/settings/_custom.scss */
+.color-palatte.green {
+  background-color: #46D146;
+}
+/* line 3183, ../scss/settings/_custom.scss */
+.color-palatte.skin {
+  background-color: #FFD285;
+}
+/* line 3187, ../scss/settings/_custom.scss */
+.color-palatte.light-green {
+  background-color: #A8D900;
+}
+/* line 3191, ../scss/settings/_custom.scss */
+.color-palatte.default {
+  background-color: #949494;
+}
+/* line 3195, ../scss/settings/_custom.scss */
+.color-palatte.no-color {
+  background-color: transparent;
+}
+
+/* line 3200, ../scss/settings/_custom.scss */
+.active-labels {
+  position: relative;
+  width: 90%;
+  max-width: 240px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 3px;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: normal;
+  padding-left: 10px;
+}
+/* line 3213, ../scss/settings/_custom.scss */
+.active-labels.active {
+  border: 2px solid black;
+}
+/* line 3217, ../scss/settings/_custom.scss */
+.active-labels.no-color {
+  border: 1px solid #cccccc;
+  text-align: center;
+  font-size: 10px;
+  color: #949494;
+  cursor: pointer;
+}
+/* line 3220, ../scss/settings/_custom.scss */
+.active-labels.no-color md-icon {
+  display: none;
+}
+/* line 3230, ../scss/settings/_custom.scss */
+.active-labels md-icon {
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  top: 8px;
+}
+/* line 3237, ../scss/settings/_custom.scss */
+.active-labels md-icon svg path {
+  fill: #fff;
+}
+/* line 3242, ../scss/settings/_custom.scss */
+.active-labels md-icon.ico-edit {
+  right: 10px;
+}
+/* line 3246, ../scss/settings/_custom.scss */
+.active-labels md-icon.ico-delete {
+  right: -24px;
+}
+
+/**Color Chooser Md-checkbox***/
+/*Chips start*/
+/* line 3257, ../scss/settings/_custom.scss */
+.attachment-list li {
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  background-clip: padding-box;
+  /* stops bg color from leaking outside the border: */
+  padding: 8px 12px 8px 32px;
+  background: #f2f2f2 url(../../images/icons/set-b/ico-pdf.svg) center left 8px/15px no-repeat;
+  margin: 0 15px 10px 0 !important;
+}
+/* line 3264, ../scss/settings/_custom.scss */
+.attachment-list li:last-child {
+  margin: 0 15px 0 0 !important;
+}
+
+/*Chips End*/
+/* line 3272, ../scss/settings/_custom.scss */
+.notify-badge {
+  position: absolute;
+  top: 11px;
+  right: 10px;
+  display: inline-block;
+  background: #02b9f2;
+  color: #fff;
+  font-weight: 500;
+  font-size: 10px;
+  text-align: center;
+  line-height: 1.7;
+  border-radius: 20px;
+  min-width: 14px;
+  height: 15px;
+}
+
+/*Notification Side bar Css*/
+/* line 3291, ../scss/settings/_custom.scss */
+.notification-section .notification-title {
+  padding: 12px 20px;
+}
+/* line 3294, ../scss/settings/_custom.scss */
+.notification-section .notification-title h2 {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  margin-right: 5px;
+  font-weight: 500;
+}
+/* line 3302, ../scss/settings/_custom.scss */
+.notification-section .notification-title .notify-badge {
+  position: relative;
+  top: inherit;
+  right: inherit;
+  padding: 1px;
+  line-height: 1.7;
+  font-size: 9px;
+  font-weight: 700;
+}
+/* line 3314, ../scss/settings/_custom.scss */
+.notification-section .notification-list .md-subheader {
+  background-color: #eaeaea;
+}
+/* line 3319, ../scss/settings/_custom.scss */
+.notification-section .notification-list .md-subheader .md-subheader-inner {
+  padding: 0 20px;
+  height: 30px;
+  line-height: 30px;
+}
+/* line 3326, ../scss/settings/_custom.scss */
+.notification-section .notification-list li {
+  padding: 20px;
+  border-bottom: 1px solid #dbdbdb;
+}
+/* line 3331, ../scss/settings/_custom.scss */
+.notification-section .notification-list li .notify-detail .notify-id {
+  display: inline-block;
+  width: 48%;
+}
+/* line 3335, ../scss/settings/_custom.scss */
+.notification-section .notification-list li .notify-detail .notify-id span {
+  display: inline-block;
+}
+/* line 3340, ../scss/settings/_custom.scss */
+.notification-section .notification-list li .notify-detail a {
+  display: inline-block;
+  margin-right: 4px;
+}
+/* line 3346, ../scss/settings/_custom.scss */
+.notification-section .notification-list li p {
+  margin: 0;
+  padding-top: 12px;
+  padding-right: 20px;
+}
+/* line 3352, ../scss/settings/_custom.scss */
+.notification-section .notification-list li:last-child {
+  border: 0;
+}
+
+/* End */
+/*Radio Button Style End*/
+/* line 3363, ../scss/settings/_custom.scss */
+.sidebar-add-service {
+  margin-left: 3px;
+  margin-top: 7px;
+  padding: 0 5px;
+  height: 25px;
+  min-height: 25px;
+  line-height: 25px;
+}
+/* line 3371, ../scss/settings/_custom.scss */
+.sidebar-add-service md-icon {
+  height: 17px;
+  width: 17px;
+  margin-right: 5px;
+}
+
+/* Status displayer support page start */
+/* line 3385, ../scss/settings/_custom.scss */
+.status-displayer .main-holder {
+  position: relative;
+}
+/* line 3388, ../scss/settings/_custom.scss */
+.status-displayer .main-holder:before, .status-displayer .main-holder:after {
+  content: '';
+  border: 2px solid #f2f2f2;
+  display: inline-block;
+  position: absolute;
+  top: 35%;
+}
+/* line 3397, ../scss/settings/_custom.scss */
+.status-displayer .main-holder:before {
+  right: 50%;
+  left: 0;
+}
+/* line 3402, ../scss/settings/_custom.scss */
+.status-displayer .main-holder:after {
+  left: 50%;
+  right: 0;
+}
+/* line 3408, ../scss/settings/_custom.scss */
+.status-displayer .main-holder:first-child:before {
+  content: none;
+}
+/* line 3414, ../scss/settings/_custom.scss */
+.status-displayer .main-holder:last-child:after {
+  content: none;
+}
+/* line 3419, ../scss/settings/_custom.scss */
+.status-displayer .main-holder .displayer-title {
+  cursor: pointer;
+  color: #424853;
+  font-size: 14px;
+  margin-top: 15px;
+}
+/* line 3427, ../scss/settings/_custom.scss */
+.status-displayer .main-holder.active .progress-circular-holder .progress-number,
+.status-displayer .main-holder.active .displayer-title {
+  color: #02b9f2;
+}
+/* line 3433, ../scss/settings/_custom.scss */
+.status-displayer .main-holder.active .progress-circular-holder:after {
+  border: 1px solid #5a5a5a;
+}
+/* line 3444, ../scss/settings/_custom.scss */
+.status-displayer .progress-circular-holder {
+  cursor: pointer;
+  height: 65px;
+  width: 65px;
+  position: relative;
+}
+/* line 3451, ../scss/settings/_custom.scss */
+.status-displayer .progress-circular-holder.overall:after {
+  background: #f2f2f2;
+}
+/* line 3456, ../scss/settings/_custom.scss */
+.status-displayer .progress-circular-holder md-progress-circular {
+  height: 63px !important;
+  width: 63px !important;
+}
+/* line 3460, ../scss/settings/_custom.scss */
+.status-displayer .progress-circular-holder md-progress-circular .md-inner {
+  height: 128px;
+  width: 128px;
+}
+/* line 3464, ../scss/settings/_custom.scss */
+.status-displayer .progress-circular-holder md-progress-circular .md-inner .md-gap {
+  left: 64px;
+  right: 64px;
+  border-top-width: 4px;
+  top: 0.8px;
+}
+/* line 3471, ../scss/settings/_custom.scss */
+.status-displayer .progress-circular-holder md-progress-circular .md-inner .md-left,
+.status-displayer .progress-circular-holder md-progress-circular .md-inner .md-right {
+  height: 128px;
+  width: 63px;
+}
+/* line 3476, ../scss/settings/_custom.scss */
+.status-displayer .progress-circular-holder md-progress-circular .md-inner .md-left .md-half-circle,
+.status-displayer .progress-circular-holder md-progress-circular .md-inner .md-right .md-half-circle {
+  border-width: 4px;
+  width: 128px;
+  height: 128px;
+}
+/* line 3485, ../scss/settings/_custom.scss */
+.status-displayer .progress-circular-holder .progress-number {
+  color: #333333;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+/* line 3497, ../scss/settings/_custom.scss */
+.status-displayer .progress-circular-holder:after {
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  bottom: 1px;
+  right: 1px;
+  border: 1px solid #dbdbdb;
+  background: #fff;
+  z-index: 1;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  background-clip: padding-box;
+  /* stops bg color from leaking outside the border: */
+}
+
+/* mixin for color platellete in status displayer start */
+/* mixin for color platellete in status displayer start */
+/* line 3546, ../scss/settings/_custom.scss */
+.status-displayer {
+  margin-top: 22px;
+  margin-bottom: 35px;
+}
+@media screen and (max-width: 460px) {
+  /* line 3551, ../scss/settings/_custom.scss */
+  .status-displayer .main-holder:before, .status-displayer .main-holder:after {
+    top: 30%;
+  }
+}
+/* line 3520, ../scss/settings/_custom.scss */
+.status-displayer .progress-circular-holder.platelet1 md-progress-circular .md-inner .md-left .md-half-circle,
+.status-displayer .progress-circular-holder.platelet1 md-progress-circular .md-inner .md-right .md-half-circle {
+  border-top-color: #F45151;
+}
+/* line 3526, ../scss/settings/_custom.scss */
+.status-displayer .progress-circular-holder.platelet1 md-progress-circular .md-inner .md-left .md-half-circle {
+  border-left-color: #F45151;
+}
+/* line 3531, ../scss/settings/_custom.scss */
+.status-displayer .progress-circular-holder.platelet1 md-progress-circular .md-inner .md-gap {
+  border-top-color: #F45151;
+  border-bottom-color: #F45151;
+}
+/* line 3537, ../scss/settings/_custom.scss */
+.status-displayer .progress-circular-holder.platelet1 md-progress-circular .md-inner .md-right .md-half-circle {
+  border-right-color: #F45151;
+}
+/* line 3520, ../scss/settings/_custom.scss */
+.status-displayer .progress-circular-holder.platelet2 md-progress-circular .md-inner .md-left .md-half-circle,
+.status-displayer .progress-circular-holder.platelet2 md-progress-circular .md-inner .md-right .md-half-circle {
+  border-top-color: #FCB24F;
+}
+/* line 3526, ../scss/settings/_custom.scss */
+.status-displayer .progress-circular-holder.platelet2 md-progress-circular .md-inner .md-left .md-half-circle {
+  border-left-color: #FCB24F;
+}
+/* line 3531, ../scss/settings/_custom.scss */
+.status-displayer .progress-circular-holder.platelet2 md-progress-circular .md-inner .md-gap {
+  border-top-color: #FCB24F;
+  border-bottom-color: #FCB24F;
+}
+/* line 3537, ../scss/settings/_custom.scss */
+.status-displayer .progress-circular-holder.platelet2 md-progress-circular .md-inner .md-right .md-half-circle {
+  border-right-color: #FCB24F;
+}
+/* line 3520, ../scss/settings/_custom.scss */
+.status-displayer .progress-circular-holder.platelet3 md-progress-circular .md-inner .md-left .md-half-circle,
+.status-displayer .progress-circular-holder.platelet3 md-progress-circular .md-inner .md-right .md-half-circle {
+  border-top-color: #ABD036;
+}
+/* line 3526, ../scss/settings/_custom.scss */
+.status-displayer .progress-circular-holder.platelet3 md-progress-circular .md-inner .md-left .md-half-circle {
+  border-left-color: #ABD036;
+}
+/* line 3531, ../scss/settings/_custom.scss */
+.status-displayer .progress-circular-holder.platelet3 md-progress-circular .md-inner .md-gap {
+  border-top-color: #ABD036;
+  border-bottom-color: #ABD036;
+}
+/* line 3537, ../scss/settings/_custom.scss */
+.status-displayer .progress-circular-holder.platelet3 md-progress-circular .md-inner .md-right .md-half-circle {
+  border-right-color: #ABD036;
+}
+/* line 3520, ../scss/settings/_custom.scss */
+.status-displayer .progress-circular-holder.platelet4 md-progress-circular .md-inner .md-left .md-half-circle,
+.status-displayer .progress-circular-holder.platelet4 md-progress-circular .md-inner .md-right .md-half-circle {
+  border-top-color: #949494;
+}
+/* line 3526, ../scss/settings/_custom.scss */
+.status-displayer .progress-circular-holder.platelet4 md-progress-circular .md-inner .md-left .md-half-circle {
+  border-left-color: #949494;
+}
+/* line 3531, ../scss/settings/_custom.scss */
+.status-displayer .progress-circular-holder.platelet4 md-progress-circular .md-inner .md-gap {
+  border-top-color: #949494;
+  border-bottom-color: #949494;
+}
+/* line 3537, ../scss/settings/_custom.scss */
+.status-displayer .progress-circular-holder.platelet4 md-progress-circular .md-inner .md-right .md-half-circle {
+  border-right-color: #949494;
+}
+/* line 3520, ../scss/settings/_custom.scss */
+.status-displayer .progress-circular-holder.platelet5 md-progress-circular .md-inner .md-left .md-half-circle,
+.status-displayer .progress-circular-holder.platelet5 md-progress-circular .md-inner .md-right .md-half-circle {
+  border-top-color: #02b9f2;
+}
+/* line 3526, ../scss/settings/_custom.scss */
+.status-displayer .progress-circular-holder.platelet5 md-progress-circular .md-inner .md-left .md-half-circle {
+  border-left-color: #02b9f2;
+}
+/* line 3531, ../scss/settings/_custom.scss */
+.status-displayer .progress-circular-holder.platelet5 md-progress-circular .md-inner .md-gap {
+  border-top-color: #02b9f2;
+  border-bottom-color: #02b9f2;
+}
+/* line 3537, ../scss/settings/_custom.scss */
+.status-displayer .progress-circular-holder.platelet5 md-progress-circular .md-inner .md-right .md-half-circle {
+  border-right-color: #02b9f2;
+}
+/* line 3520, ../scss/settings/_custom.scss */
+.status-displayer .progress-circular-holder.no-platelet md-progress-circular .md-inner .md-left .md-half-circle,
+.status-displayer .progress-circular-holder.no-platelet md-progress-circular .md-inner .md-right .md-half-circle {
+  border-top-color: transparent;
+}
+/* line 3526, ../scss/settings/_custom.scss */
+.status-displayer .progress-circular-holder.no-platelet md-progress-circular .md-inner .md-left .md-half-circle {
+  border-left-color: transparent;
+}
+/* line 3531, ../scss/settings/_custom.scss */
+.status-displayer .progress-circular-holder.no-platelet md-progress-circular .md-inner .md-gap {
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+}
+/* line 3537, ../scss/settings/_custom.scss */
+.status-displayer .progress-circular-holder.no-platelet md-progress-circular .md-inner .md-right .md-half-circle {
+  border-right-color: transparent;
+}
+
+/* Status displayer support page end */
+/* Customer logo start */
+/* line 3591, ../scss/settings/_custom.scss */
+.auth-head .ico-default {
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  border-radius: 100%;
+  position: relative;
+}
+/* line 3598, ../scss/settings/_custom.scss */
+.auth-head .ico-default:after {
+  content: "";
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  bottom: -26px;
+  right: 16px;
+  border-radius: 100%;
+}
+/* line 3608, ../scss/settings/_custom.scss */
+.auth-head .ico-default:before {
+  content: "";
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  bottom: -26px;
+  left: 16px;
+  border-radius: 100%;
+}
+
+/* Customer logo end */
+/* Attribute-definition section start */
+/* line 3625, ../scss/settings/_custom.scss */
+.attribute-section .title {
+  margin-top: 0;
+  color: #949494;
+}
+/* line 3636, ../scss/settings/_custom.scss */
+.attribute-section .attribute-list li .attr-serno {
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  background-clip: padding-box;
+  /* stops bg color from leaking outside the border: */
+  border: 1px solid #D6E1E5;
+  color: #2a2a2a;
+  display: inline-block;
+  height: 21px;
+  line-height: 21px;
+  margin-right: 10px;
+  text-align: center;
+  width: 21px;
+}
+/* line 3649, ../scss/settings/_custom.scss */
+.attribute-section .attribute-list li .col-title {
+  margin-top: 4px;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+
+/* Attribute-definition section end */
+/* Item chips section start */
+/* line 3667, ../scss/settings/_custom.scss */
+.item-chips li {
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  background-clip: padding-box;
+  /* stops bg color from leaking outside the border: */
+  background: #f2f2f2;
+  color: #949494;
+  display: inline-block;
+  padding: 8px 10px;
+}
+/* line 3675, ../scss/settings/_custom.scss */
+.item-chips li .icon-close {
+  padding: 0;
+  margin: 0;
+  height: 13px;
+  min-height: 13px;
+  width: 13px;
+}
+/* line 3682, ../scss/settings/_custom.scss */
+.item-chips li .icon-close md-icon {
+  height: 11px;
+  width: 11px;
+}
+
+/* line 3693, ../scss/settings/_custom.scss */
+.item-chipset li {
+  margin-bottom: 10px;
+}
+/* line 3697, ../scss/settings/_custom.scss */
+.item-chipset .chipbox {
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  background-clip: padding-box;
+  /* stops bg color from leaking outside the border: */
+  background: #f2f2f2;
+  color: #949494;
+  display: inline-block;
+  padding: 8px 10px;
+}
+/* line 3706, ../scss/settings/_custom.scss */
+.item-chipset .icon-close {
+  padding: 0;
+  margin: 0;
+  height: 13px;
+  min-height: 13px;
+  width: 13px;
+}
+/* line 3713, ../scss/settings/_custom.scss */
+.item-chipset .icon-close md-icon {
+  height: 11px;
+  width: 11px;
+}
+
+/* Item chips section end */
+/* Styling for ticked disabled checkbox */
+/* line 3727, ../scss/settings/_custom.scss */
+md-checkbox.cb-checkDisabled .md-label, md-checkbox.cb-checkDisabled[disabled] .md-label {
+  color: #333333;
+}
+/* line 3734, ../scss/settings/_custom.scss */
+md-checkbox.cb-checkDisabled .md-icon, md-checkbox.cb-checkDisabled[disabled].md-checked .md-icon {
+  border: 1px solid #b2c6cd;
+  background-color: #d7eef4;
+}
+/* line 3738, ../scss/settings/_custom.scss */
+md-checkbox.cb-checkDisabled .md-icon:after, md-checkbox.cb-checkDisabled[disabled].md-checked .md-icon:after {
+  border-color: #b2c6cd;
+}
+
+/* Styling for ticked disabled checkbox */
+/* Product img section start */
+/* line 3749, ../scss/settings/_custom.scss */
+.product-img-box {
+  display: inline-block;
+  text-align: center;
+}
+/* line 3753, ../scss/settings/_custom.scss */
+.product-img-box .product-img {
+  max-width: 60px;
+  min-width: 50px;
+}
+/* line 3758, ../scss/settings/_custom.scss */
+.product-img-box .product-no-img {
+  height: 36px !important;
+  min-width: 60px;
+}
+/* line 3763, ../scss/settings/_custom.scss */
+.product-img-box .product-lbl {
+  margin-top: 9px;
+}
+
+/* Product img section end */
+/* line 3772, ../scss/settings/_custom.scss */
+.task-list .icon-side-tick {
+  display: none;
+  height: 15px;
+  position: absolute;
+  left: 18px;
+  top: 8px;
+  width: 15px;
+}
+/* line 3781, ../scss/settings/_custom.scss */
+.task-list .schedule-select {
+  background: #d2f4c3;
+}
+/* line 3784, ../scss/settings/_custom.scss */
+.task-list .schedule-select.no-bg {
+  background: none !important;
+}
+/* line 3788, ../scss/settings/_custom.scss */
+.task-list .schedule-select .icon-side-tick {
+  display: inline-block;
+}
+
+/*Utilization bar section starts*/
+/* line 3796, ../scss/settings/_custom.scss */
+.utilization-bar {
+  cursor: pointer;
+  height: 17px;
+  width: 52px;
+}
+/* line 3801, ../scss/settings/_custom.scss */
+.utilization-bar span {
+  background-image: url(../../images/icons/set-h/utilization-bar.png);
+  background-position: 0 1px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 100%;
+}
+/* line 3808, ../scss/settings/_custom.scss */
+.utilization-bar span.inactive {
+  background-image: url(../../images/icons/set-h/utilization-bar-inactive.png);
+  background-position: -4px 1px;
+}
+
+/*Utilization bar section ends*/
+/* line 3818, ../scss/settings/_custom.scss */
+md-input-container.header-select-input {
+  margin-bottom: 0;
+}
+/* line 3822, ../scss/settings/_custom.scss */
+md-input-container.header-select-input md-select:not([disbaled]):focus .md-select-value {
+  border-bottom: none;
+}
+/* line 3827, ../scss/settings/_custom.scss */
+md-input-container.header-select-input md-select-value {
+  border-bottom: none;
+}
+/* line 3836, ../scss/settings/_custom.scss */
+md-input-container.header-select-input md-select-value .md-select-icon {
+  width: 16px;
+}
+/* line 3839, ../scss/settings/_custom.scss */
+md-input-container.header-select-input md-select-value .md-select-icon:after {
+  content: '\3e';
+  color: #FF9501;
+  top: -4px;
+  right: -4px;
+  -webkit-transform: scaleY(1.2) scaleX(2.1) rotate(90deg);
+  -moz-transform: scaleY(1.2) scaleX(2.1) rotate(90deg);
+  -o-transform: scaleY(1.2) scaleX(2.1) rotate(90deg);
+  transform: scaleY(1.2) scaleX(2.1) rotate(90deg);
+}
+
+/*Social icons color paths starts */
+/* line 3858, ../scss/settings/_custom.scss */
+.insta svg path {
+  fill: #125587;
+}
+
+/* line 3866, ../scss/settings/_custom.scss */
+.fb svg path {
+  fill: #3566B5;
+}
+
+/* line 3874, ../scss/settings/_custom.scss */
+.twitter svg path {
+  fill: #7CECFF;
+}
+
+/* line 3882, ../scss/settings/_custom.scss */
+.linkedin svg path {
+  fill: #5BCEE8;
+}
+
+/*Social icons color paths ends */
+/* line 3890, ../scss/settings/_custom.scss */
+.assign-resource {
+  height: 24px !important;
+  width: 42px !important;
+}
+/* line 3895, ../scss/settings/_custom.scss */
+.assign-resource:hover svg path:first-child {
+  fill: #39A82D;
+}
+
+/* line 3901, ../scss/settings/_custom.scss */
+.user-assign {
+  background: #FF9501;
+  border-radius: 20px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  min-width: 42px;
+  padding: 2px 10px;
+  text-align: left;
+}
+/* line 3911, ../scss/settings/_custom.scss */
+.user-assign md-icon {
+  height: 12px !important;
+  margin-right: 2px !important;
+  width: 12px !important;
+}
+/* line 3916, ../scss/settings/_custom.scss */
+.user-assign md-icon svg path {
+  fill: #fff;
+}
+/* line 3921, ../scss/settings/_custom.scss */
+.user-assign span {
+  color: #fff;
+  font-size: 11px;
+}
+
+/* line 3927, ../scss/settings/_custom.scss */
+.save-option {
+  position: absolute;
+  top: 7px;
+  right: 10px;
+}
+/* line 3932, ../scss/settings/_custom.scss */
+.save-option md-icon {
+  height: 13px;
+  width: 13px;
+}
+/* line 3936, ../scss/settings/_custom.scss */
+.save-option md-icon.active {
+  height: 15px;
+  margin-right: 8px;
+  width: 15px;
+}
+/* line 3941, ../scss/settings/_custom.scss */
+.save-option md-icon.active svg path {
+  fill: #FF9501;
+}
+
+/* line 3949, ../scss/settings/_custom.scss */
+.edit-content md-input-container {
+  margin: 0;
+}
+/* line 3952, ../scss/settings/_custom.scss */
+.edit-content md-input-container textarea,
+.edit-content md-input-container input {
+  background-color: #fff;
+  height: 35px !important;
+}
+
+/* line 3961, ../scss/settings/_custom.scss */
+md-datepicker .md-datepicker-calendar-icon svg path {
+  fill: #FF9501;
+}
+
+/* line 3969, ../scss/settings/_custom.scss */
+.product-img-list li {
+  margin-bottom: 25px;
+  text-align: center;
+  vertical-align: top;
+}
+/* line 3975, ../scss/settings/_custom.scss */
+.product-img-list .product-img-box {
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  background-clip: padding-box;
+  /* stops bg color from leaking outside the border: */
+  border: 1px solid #D6E1E5;
+  box-sizing: border-box;
+  max-width: 100%;
+  height: 150px;
+  position: relative;
+  width: 95%;
+}
+/* line 3986, ../scss/settings/_custom.scss */
+.product-img-list .holder {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+/* line 3994, ../scss/settings/_custom.scss */
+.product-img-list .product-no-img {
+  height: 45px;
+}
+/* line 3998, ../scss/settings/_custom.scss */
+.product-img-list .product-img {
+  max-width: 85px;
+  min-width: 75px;
+}
+/* line 4003, ../scss/settings/_custom.scss */
+.product-img-list .product-lbl {
+  color: #333333;
+  cursor: pointer;
+  font-size: 10px;
+  margin-top: 8px;
+}
+/* line 4014, ../scss/settings/_custom.scss */
+.product-img-list .img-options {
+  position: absolute;
+  top: -15px;
+  right: -14px;
+}
+/* line 4019, ../scss/settings/_custom.scss */
+.product-img-list .img-options .md-icon-button {
+  border: 1px solid #cccccc;
+  padding: 0;
+  height: 28px;
+  margin-right: 0;
+  min-height: 28px;
+  width: 28px;
+}
+/* line 4020, ../scss/settings/_custom.scss */
+.product-img-list .img-options .md-icon-button, .product-img-list .img-options .md-icon-button:hover {
+  background: #fff;
+}
+/* line 4033, ../scss/settings/_custom.scss */
+.product-img-list .img-options md-icon {
+  height: 12px;
+  width: 12px;
+}
+
+/* line 4040, ../scss/settings/_custom.scss */
+.product-selection-list.active {
+  border-radius: 5px;
+  position: relative;
+  top: -1px;
+  padding: 10px;
+}
+/* line 4045, ../scss/settings/_custom.scss */
+.product-selection-list.active ul {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+/* line 4050, ../scss/settings/_custom.scss */
+.product-selection-list.active ul li {
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 4055, ../scss/settings/_custom.scss */
+.product-selection-list.active .product-title {
+  font-size: 11px;
+  color: #333333;
+  line-height: 15px;
+  text-align: left;
+}
+/* line 4061, ../scss/settings/_custom.scss */
+.product-selection-list.active .product-price {
+  text-align: left;
+  min-width: 50px;
+  max-width: 67px;
+  word-wrap: break-word;
+}
+/* line 4068, ../scss/settings/_custom.scss */
+.product-selection-list.active .product-image {
+  width: 74px;
+}
+/* line 4070, ../scss/settings/_custom.scss */
+.product-selection-list.active .product-image img {
+  max-height: 50px;
+}
+/* line 4074, ../scss/settings/_custom.scss */
+.product-selection-list.active .product-detail {
+  width: 100%;
+}
+/* line 4077, ../scss/settings/_custom.scss */
+.product-selection-list.active .product-content {
+  width: 100%;
+  max-width: 90px;
+  padding-left: 10px;
+}
+/* line 4082, ../scss/settings/_custom.scss */
+.product-selection-list.active md-card {
+  box-shadow: none;
+  border: 1px solid #f2f2f2;
+  border-radius: 5px;
+  margin: 0;
+  cursor: pointer;
+  width: 166px;
+  min-height: 74px;
+  padding: 8px 10px 8px 4px;
+}
+/* line 4092, ../scss/settings/_custom.scss */
+.product-selection-list.active md-checkbox.product-radio {
+  padding: 0;
+  margin: 10px;
+}
+/* line 4097, ../scss/settings/_custom.scss */
+.product-selection-list.active md-checkbox.product-radio .md-icon {
+  top: -2px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border-width: 1px;
+  border-color: #dbdbdb;
+}
+/* line 4105, ../scss/settings/_custom.scss */
+.product-selection-list.active md-checkbox.product-radio .md-label {
+  margin: 0;
+}
+/* line 4108, ../scss/settings/_custom.scss */
+.product-selection-list.active md-checkbox.product-radio .md-container {
+  top: 1px;
+  left: -11px;
+  z-index: 5;
+  height: 18px;
+  width: 20px;
+  background: #FFF;
+}
+/* line 4115, ../scss/settings/_custom.scss */
+.product-selection-list.active md-checkbox.product-radio .md-container .md-icon {
+  transition: none;
+}
+/* line 4121, ../scss/settings/_custom.scss */
+.product-selection-list.active md-checkbox.product-radio.md-checked .md-icon {
+  background-color: transparent;
+  border-radius: 50%;
+  border: 1px solid #dbdbdb;
+}
+/* line 4125, ../scss/settings/_custom.scss */
+.product-selection-list.active md-checkbox.product-radio.md-checked .md-icon:after {
+  background: #FF9501;
+  border: 0;
+  border-radius: 50%;
+  height: 8px;
+  width: 8px;
+  top: 5px;
+  left: 5px;
+}
+/* line 4135, ../scss/settings/_custom.scss */
+.product-selection-list.active md-checkbox.product-radio.md-checked md-card {
+  border: 1px solid #FF9501;
+}
+/* line 4139, ../scss/settings/_custom.scss */
+.product-selection-list.active .item-quantity-box {
+  opacity: 0;
+  overflow: hidden;
+  height: 0;
+  transition: .5s all ease-in-out;
+  margin: 0;
+}
+/* line 4147, ../scss/settings/_custom.scss */
+.product-selection-list.active .item-quantity-box .ico-round-btn svg path {
+  fill: #dbdbdb;
+}
+/* line 4153, ../scss/settings/_custom.scss */
+.product-selection-list.active md-checkbox.product-radio.md-checked + .item-quantity-box {
+  margin: 9px 5px 10px;
+  transition: .5s all ease-in-out;
+  overflow: visible;
+  opacity: 1;
+  height: auto;
+}
+/* line 4161, ../scss/settings/_custom.scss */
+.product-selection-list.active md-icon.icon-like {
+  height: 10px;
+  width: 10px;
+}
+
+/* line 4166, ../scss/settings/_custom.scss */
+.img-replacer {
+  height: 46px;
+  width: 46px;
+  border-radius: 50%;
+  background: #FFE9CF;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+  color: #FF9501;
+  padding: 15px 0 0;
+  box-sizing: border-box;
+  line-height: 15px;
+  margin-top: 4px;
+  text-transform: uppercase;
+}
+
+/* line 4187, ../scss/settings/_custom.scss */
+.days {
+  margin-top: 10px;
+}
+/* line 4192, ../scss/settings/_custom.scss */
+.days li {
+  display: inline-block;
+  margin-bottom: 10px;
+  text-align: center;
+}
+/* line 4193, ../scss/settings/_custom.scss */
+.days li:not(:last-child) {
+  margin-right: 10px;
+}
+/* line 4202, ../scss/settings/_custom.scss */
+.days .day-text {
+  border: 1px solid #D6E1E5;
+  border-radius: 50%;
+  height: 34px;
+  line-height: 34px;
+  text-transform: uppercase;
+  width: 34px;
+}
+/* line 4212, ../scss/settings/_custom.scss */
+.days .day-text.selected, .days .day-text.dayOffWorking {
+  border: 1px solid #02b9f2;
+  color: #02b9f2;
+}
+/* line 4218, ../scss/settings/_custom.scss */
+.days .day-text.dayOff {
+  border: 1px solid #cccccc;
+  background: #cccccc;
+  color: #fff;
+}
+/* line 4224, ../scss/settings/_custom.scss */
+.days .day-text.dayOffWorking {
+  background: #f2f2f2;
+}
+
+/* line 4233, ../scss/settings/_custom.scss */
+.search-list .small-text {
+  font-size: 10px;
+}
+/* line 4237, ../scss/settings/_custom.scss */
+.search-list li {
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* line 4242, ../scss/settings/_custom.scss */
+.search-list li .product-id {
+  color: #333333;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+/* line 4248, ../scss/settings/_custom.scss */
+.search-list li .gap-xs {
+  margin-right: 8px;
+}
+/* line 4253, ../scss/settings/_custom.scss */
+.search-list .img-container {
+  background: #fff;
+  height: 42px;
+  min-width: 42px;
+  max-width: 42px;
+  border-radius: 50%;
+  border: 1px solid #D6E1E5;
+  margin-right: 12px;
+  padding: 10px 5px;
+  position: relative;
+}
+/* line 4264, ../scss/settings/_custom.scss */
+.search-list .img-container .icon-tick {
+  display: none;
+  height: 16px;
+  position: absolute;
+  top: -6px;
+  right: -5px;
+}
+/* line 4273, ../scss/settings/_custom.scss */
+.search-list .img-container.selected .icon-tick {
+  display: inline-block;
+}
+/* line 4278, ../scss/settings/_custom.scss */
+.search-list .img-container img {
+  max-height: 28px;
+  max-width: 28px;
+}
+
+/* line 4285, ../scss/settings/_custom.scss */
+.text-ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+/* line 4290, ../scss/settings/_custom.scss */
+.last-update-msg {
+  color: #949494;
+  position: absolute;
+  font-size: 10px;
+}
+
+/* line 4297, ../scss/settings/_custom.scss */
+.default-business-logo .ico-default {
+  margin-top: -20px;
+  margin-right: 30px;
+  margin-left: 15px;
+}
+/* line 4302, ../scss/settings/_custom.scss */
+.default-business-logo .ico-default, .default-business-logo .ico-default:before, .default-business-logo .ico-default:after {
+  background: #02b9f2;
+}
+/* line 4309, ../scss/settings/_custom.scss */
+.default-business-logo .logo-title {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+/* line 4315, ../scss/settings/_custom.scss */
+.break-word {
+  word-break: break-all;
+}
+
+@media only screen and (min-width: 600px) {
+  /* line 4321, ../scss/settings/_custom.scss */
+  .hide-backdrop md-backdrop {
+    display: none;
+  }
+
+  /* line 4327, ../scss/settings/_custom.scss */
+  .hidden-backdrop md-backdrop {
+    background: transparent;
+  }
+
+  /* line 4333, ../scss/settings/_custom.scss */
+  .product-img-list li {
+    display: inline-block;
+    margin-right: 28px;
+  }
+  /* line 4338, ../scss/settings/_custom.scss */
+  .product-img-list .product-img-box {
+    width: 150px;
+  }
+}
+@media (min-width: 960px) {
+  /* line 4345, ../scss/settings/_custom.scss */
+  md-menu-content[width="4"] {
+    min-width: 236px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* line 4353, ../scss/settings/_custom.scss */
+  .md-dialog-container md-toolbar.main-header .md-button.btn-primary md-icon svg path, .md-dialog-container md-toolbar.main-header .table-menu .menu-header .md-button md-icon svg path, .table-menu .menu-header .md-dialog-container md-toolbar.main-header .md-button md-icon svg path {
+    fill: #fff;
+  }
+}
+@media only screen and (max-width: 321px) {
+  /* line 4361, ../scss/settings/_custom.scss */
+  md-menu-content[width="6"] {
+    min-width: 292px;
+  }
+
+  /* line 4365, ../scss/settings/_custom.scss */
+  .social-dropdown md-menu-item .input-box input {
+    width: 62%;
+  }
+
+  /* line 4369, ../scss/settings/_custom.scss */
+  .map-switch .map-switch-btn {
+    top: 9px;
+    right: 38px;
+  }
+}
+/* Toast style */
+/* line 4377, ../scss/settings/_custom.scss */
+md-toast.md-success-toast-theme .md-toast-content {
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.5);
+  background-color: #ABD036;
+}
+/* line 4381, ../scss/settings/_custom.scss */
+md-toast.md-danger-toast-theme .md-toast-content {
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.5);
+  background-color: #FF8162;
+}
+/* line 4385, ../scss/settings/_custom.scss */
+md-toast.md-warning-toast-theme .md-toast-content {
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.5);
+  background-color: #FFAB19;
+}
+
+/* line 4393, ../scss/settings/_custom.scss */
+.centerPositioned {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin-top: -19px !important;
+}
+
+/* Common for the auth */
+/* line 3, ../scss/auth/_login.scss */
+#content md-content {
+  border-top: 10px solid #FFE9CF;
+}
+
+/*--ng-Login-Page--*/
+/* line 9, ../scss/auth/_login.scss */
+.auth-login {
+  min-height: 580px;
+}
+/* line 12, ../scss/auth/_login.scss */
+.auth-login md-checkbox.md-default-theme.md-checked .md-ink-ripple,
+.auth-login md-checkbox.md-checked .md-ink-ripple {
+  color: #FF9501;
+}
+/* line 17, ../scss/auth/_login.scss */
+.auth-login md-checkbox .md-icon {
+  width: 21px;
+  height: 21px;
+  background-color: transparent;
+  border: 1px solid #cccccc;
+}
+/* line 23, ../scss/auth/_login.scss */
+.auth-login md-checkbox .md-icon:after {
+  border-color: #FF9501;
+}
+/* line 28, ../scss/auth/_login.scss */
+.auth-login .form-base {
+  width: 260px;
+}
+/* line 31, ../scss/auth/_login.scss */
+.auth-login .form-base hr {
+  background: #dddddd none repeat scroll 0% 0%;
+  border: 0px none;
+  height: 1px;
+  position: relative;
+  top: 3px;
+}
+/* line 39, ../scss/auth/_login.scss */
+.auth-login .form-base input[type="password"] {
+  height: 38px;
+  font-size: 14px;
+}
+/* line 45, ../scss/auth/_login.scss */
+.auth-login .remember-me {
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+}
+/* line 50, ../scss/auth/_login.scss */
+.auth-login .remember-me a {
+  padding-top: 7px;
+  text-decoration: underline;
+}
+/* line 55, ../scss/auth/_login.scss */
+.auth-login .remember-me md-checkbox {
+  margin: 0;
+}
+/* line 60, ../scss/auth/_login.scss */
+.auth-login .btn-primary, .auth-login .table-menu .menu-header .md-button, .table-menu .menu-header .auth-login .md-button,
+.auth-login .btn-secondary,
+.auth-login .muted-btns .md-button,
+.muted-btns .auth-login .md-button {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+/* line 67, ../scss/auth/_login.scss */
+.auth-head {
+  text-align: center;
+  margin-bottom: 40px;
+}
+/* line 71, ../scss/auth/_login.scss */
+.auth-head.layout-align-start-start {
+  margin-left: -10px;
+}
+/* line 76, ../scss/auth/_login.scss */
+.auth-head.layout-row .c-logo {
+  width: 65px;
+  height: 55px;
+}
+/* line 80, ../scss/auth/_login.scss */
+.auth-head.layout-row .c-logo .ico-default {
+  top: 0;
+}
+/* line 86, ../scss/auth/_login.scss */
+.auth-head .ico-default {
+  top: -12px;
+}
+/* line 89, ../scss/auth/_login.scss */
+.auth-head .ico-default, .auth-head .ico-default:after, .auth-head .ico-default:before {
+  background: #abd036;
+}
+/* line 96, ../scss/auth/_login.scss */
+.auth-head .md-display-1 {
+  font-weight: normal;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+/*Login End*/
+/*--Forget Password--*/
+/* line 107, ../scss/auth/_login.scss */
+.forget-pass {
+  padding: 65px;
+  width: 100%;
+}
+/* line 111, ../scss/auth/_login.scss */
+.forget-pass .md-display-1 {
+  margin-top: 0;
+}
+/* line 115, ../scss/auth/_login.scss */
+.forget-pass .forget-pass-title {
+  margin-bottom: 25px;
+}
+/* line 118, ../scss/auth/_login.scss */
+.forget-pass .forget-pass-title h2 {
+  font-size: 18px;
+  font-weight: normal;
+  display: inline-block;
+  margin: 0;
+  margin-right: 85px;
+}
+/* line 126, ../scss/auth/_login.scss */
+.forget-pass .forget-pass-title a {
+  padding-top: 3px;
+  font-size: 14px;
+  text-decoration: underline;
+  display: inline-block;
+}
+/* line 134, ../scss/auth/_login.scss */
+.forget-pass .md-padding {
+  padding: 20px 0;
+}
+/* line 138, ../scss/auth/_login.scss */
+.forget-pass input {
+  margin-top: 15px;
+}
+/* line 146, ../scss/auth/_login.scss */
+.forget-pass .btn-primary, .forget-pass .table-menu .menu-header .md-button, .table-menu .menu-header .forget-pass .md-button {
+  margin-top: 12px;
+  text-transform: capitalize;
+}
+/* line 151, ../scss/auth/_login.scss */
+.forget-pass .form-base {
+  width: 260px;
+}
+/* line 155, ../scss/auth/_login.scss */
+.forget-pass .password-rules {
+  background: #f2f2f2;
+  border: 1px solid #d6e1e5;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  /* line 166, ../scss/auth/_login.scss */
+  .forget-pass {
+    padding: 25px;
+  }
+  /* line 169, ../scss/auth/_login.scss */
+  .forget-pass .md-display-1 {
+    font-size: 24px;
+  }
+}
+/*--Forget Pass End-- */
